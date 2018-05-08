@@ -1,0 +1,222 @@
+#contains-organigramma-chart {
+  margin: 32px 0;
+  text-align: center;
+
+  .contains-year-switcher {
+    display: inline-block;
+    margin: 0 0 32px 0;
+    overflow: hidden;
+
+    .previous, .year, .next {
+      display: inline-block;
+      line-height: 7.2rem;
+      vertical-align: middle;
+    }
+
+    .previous, .next {
+      background-repeat: no-repeat;
+      cursor: pointer;
+      display: inline-block;
+      height: 45px;
+      opacity: 1;
+      pointer-events: visible;
+      transition-duration: 0.5s;
+      transition-property: all;
+      width: 45px;
+
+      &.disabled {
+        cursor: not-allowed;
+        opacity: 0.2;
+      }
+    }
+
+    .previous {
+      background-image: url("../images/freccia.svg");
+      transform: scaleX(-1);
+    }
+
+    .next {
+      background-image: url("../images/freccia.svg");
+      transform: scaleX(1);
+    }
+
+    .year {
+      font-size: 7.2rem;
+      padding: 0 2rem;
+    }
+  }
+
+  .contains-sections {
+    span.count {
+      float: left;
+      font-size: 3.2em;
+      font-weight: 100;
+      line-height: 0.8em;
+      margin: 0 1rem 2rem 0;
+    }
+
+    h2 {
+      font-size: 2.4rem;
+      margin: 0;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    .gender-distribution {
+      clear: both;
+      height: 3px;
+      margin: 0 0 1.5rem 0;
+
+      i {
+        float: left;
+        height: 3px;
+
+        &.undefined {
+          background-color: #cccccc;
+        }
+
+        &.male {
+          background-color: @fbk-blue;
+        }
+
+        &.female {
+          background-color: @fbk-pink;
+        }
+      }
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        text-align: left;
+
+        a {
+          position: relative;
+          text-decoration: none;
+          z-index: 25;
+        }
+
+        &.male a {
+          color: @fbk-blue;
+        }
+
+        &.female a {
+          color: @fbk-pink;
+        }
+
+        &.undefined a {
+          color: #cccccc;
+        }
+
+        .tooltip {
+          background: #ffffff;
+          box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.33);
+          left: 1.5em;
+          min-width: 320px;
+          position: absolute;
+          top: 1.5em;
+          z-index: 50;
+
+          .image {
+            background-repeat: no-repeat;
+            background-size: cover;
+            float: left;
+            height: 128px;
+            width: 128px;
+          }
+
+          .details {
+            margin-left: 128px;
+            padding: 8px 16px;
+
+            .name {
+              font-size: 1em;
+              line-height: 1.5em;
+              white-space: nowrap;
+            }
+
+            .role {
+              font-size: 0.75em;
+              line-height: 1em;
+              text-transform: uppercase;
+            }
+
+            .salary {
+              font-size: 0.75em;
+              white-space: nowrap;
+            }
+          }
+        }
+
+        .tooltip {
+          display: none;
+        }
+
+        &.is-highlighted a + .tooltip {
+          display: block;
+        }
+      }
+    }
+  }
+
+  svg {
+    g.node {
+      g.overlay {
+        pointer-events: auto;
+        z-index: 60;
+
+        rect {
+          fill: @fbk-blue;
+        }
+
+        text {
+          fill: #ffffff;
+          font-size: 1.35rem;
+        }
+        a{
+          
+          text-transform: capitalize;
+        }
+      }
+
+      circle.element {
+        fill: #ffffff;
+        z-index: 40;
+
+        &.has-children {
+          stroke: #0079D3;
+          stroke-width: 1px;
+
+          &:hover {
+            stroke: #0559A2;
+          }
+        }
+      }
+
+      text.label {
+        font: 10px sans-serif;
+        z-index: 50;
+
+        tspan{
+          font-family: "Roboto Condensed", sans-serif;
+          fill: @fbk-blue;
+        }
+      }
+    }
+
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 1px;
+      stroke-opacity:.33;
+
+      &.related {
+        stroke-dasharray: 6, 12;
+      }
+    }
+  }
+}

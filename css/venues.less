@@ -1,0 +1,153 @@
+@-webkit-keyframes animateVenueCloud {
+  0% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@-moz-keyframes animateVenueCloud {
+  0% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes animateVenueCloud {
+  0% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+.sede {
+	border-bottom: 1px solid @fbk-blue;
+	padding: 2rem 0 2.5rem 0;
+
+  .contains-venue-image {
+    overflow: hidden;
+    position: relative;
+
+    .cloud {
+      @top-offset: 0px;
+      @default-offset: 12px;
+      @bottom-offset: 24px;
+
+      @small-size: 16px;
+      @default-size: 24px;
+      @big-size: 32px;
+
+      @slow-speed: 48s;
+      @default-speed: 32s;
+      @fast-speed: 16s;
+
+      -webkit-animation: animateVenueCloud @default-speed linear infinite;
+      -moz-animation: animateVenueCloud @default-speed linear infinite;
+      animation: animateVenueCloud @default-speed linear infinite;
+      background-image: url('../images/cloud-small.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: @default-size;
+      position: absolute;
+      top: @default-offset;
+      width: @default-size;
+      z-index: 75;
+
+      &.is-top {
+        top: @top-offset;
+      }
+
+      &.is-bottom {
+        top: @bottom-offset;
+      }
+
+      &.is-small {
+        background-image: url('../images/cloud-small.svg');
+        height: @small-size;
+        width: @small-size;
+      }
+
+      &.is-big {
+        background-image: url('../images/cloud.svg');
+        height: @big-size;
+        width: @big-size;
+      }
+
+      &.is-slow {
+        -webkit-animation: animateVenueCloud @slow-speed linear infinite;
+        -moz-animation: animateVenueCloud @slow-speed linear infinite;
+        animation: animateVenueCloud @slow-speed linear infinite;
+      }
+
+      &.is-fast {
+        -webkit-animation: animateVenueCloud @fast-speed linear infinite;
+        -moz-animation: animateVenueCloud @fast-speed linear infinite;
+        animation: animateVenueCloud @fast-speed linear infinite;
+      }
+
+      &.is-front {
+        z-index: 200;
+      }
+    }
+
+    img {
+      margin: 24px 0 0 0;
+      position: relative;
+      z-index: 100;
+    }
+  }
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+#venues-year-switcher {
+  display: block;
+  margin: 0 0 32px 0;
+  overflow: hidden;
+  text-align: center;
+
+  .previous, .current-year, .next {
+    display: inline-block;
+    line-height: 7.2rem;
+    vertical-align: middle;
+  }
+
+  .previous, .next {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 45px;
+    opacity: 1;
+    pointer-events: visible;
+    transition-duration: 0.5s;
+    transition-property: all;
+    width: 45px;
+
+    &.disabled {
+      cursor: not-allowed;
+      opacity: 0.2;
+    }
+  }
+
+  .previous {
+    background-image: url("../images/freccia.svg");
+    transform: scaleX(-1);
+  }
+
+  .next {
+    background-image: url("../images/freccia.svg");
+    transform: scaleX(1);
+  }
+
+  .current-year {
+    font-size: 7.2rem;
+    padding: 0 2rem;
+  }
+}

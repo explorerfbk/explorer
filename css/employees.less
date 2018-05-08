@@ -1,0 +1,482 @@
+@distributionChartHeight: 2px;
+@defaultCentreColor: #0079D3;
+@poloUmanisticoColor: #B0D654;
+@poloScientificoColor: #A24AFF;
+@progettiEsplorativiColor: #5BB2DD;
+@administrationColor: #F9DA58;
+@genderLabelColor: #ffffff;
+@defaultLabelColor: #333333;
+@inactiveLabelColor: #FFFFFF;
+@inactiveColor: #cdcdcd;
+
+.pathColorsForPaths(@color, @firstLevel, @secondLevel, @thirdLevel) {
+  &.at-depth-1 {
+    fill: lighten(@color, @firstLevel);
+
+    &.is-highlighted {
+      fill: lighten(@color, @firstLevel) !important;
+    }
+  }
+
+  &.at-depth-2 {
+    fill: lighten(@color, @secondLevel);
+
+    &.is-highlighted {
+      fill: lighten(@color, @secondLevel) !important;
+    }
+  }
+
+  &.at-depth-3 {
+    fill: lighten(@color, @thirdLevel);
+
+    &.is-highlighted {
+      fill: lighten(@color, @thirdLevel) !important;
+    }
+  }
+}
+
+.employees-fullscreen() {
+  height: 100%;
+  position: relative;
+  width: 100%;
+
+  #contains-sunburst-chart {
+    &:after {
+      display: none;
+    }
+
+    position: absolute;
+    top: 80px;
+    left: 32px;
+    right: 32px;
+    bottom: 32px;
+
+    #sunburst-chart {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 50%;
+    }
+  }
+
+  #contains-employees-overview {
+    margin-top: -2%;
+    max-width: 640px;
+    overflow: hidden;
+    position: absolute;
+    transform-origin: 0 0;
+
+    #sunburst-center-main {
+      top: 0;
+      width: 100%;
+
+      h1, li {
+        margin-bottom: 0rem;
+      }
+    }
+
+    #sunburst-center-sub {
+      border: none;
+      padding: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
+
+#contains-employees {
+  position: relative;
+
+  .contains-toggles {
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+
+  #toggle-employees-help {
+    bottom: 16px;
+    color: red;
+    display: none;
+    position: fixed;
+    right: 16px;
+    img{
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  &:fullscreen {
+    .employees-fullscreen();
+  }
+
+  &:-webkit-full-screen {
+    .employees-fullscreen();
+  }
+
+  &:-moz-full-screen {
+    .employees-fullscreen();
+  }
+
+  &:-ms-full-screen {
+    .employees-fullscreen();
+  }
+
+  &.is-fullscreen #toggle-employees-help {
+    display: block;
+  }
+
+  &.is-fullscreen.contains-help #toggle-employees-help {
+    display: none;
+  }
+
+  &.is-fallback-fullscreen {
+    .employees-fullscreen();
+
+    background: white;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 750;
+  }
+}
+
+#contains-sunburst-chart {
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    padding-bottom: 50%;
+  }
+
+  > svg {
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+    text {
+      font-size: 0.6rem;
+      pointer-events: none;
+      font-weight: 100;
+
+      &.at-depth-0,
+      &.at-depth-1,
+      &.at-depth-2,
+      &.at-depth-3 {
+        fill: @defaultLabelColor;
+      }
+
+      &.at-depth-4 {
+        fill: @genderLabelColor;
+      }
+    }
+
+    path.base,
+    path.female,
+    path.male {
+      stroke: #ffffff;
+      stroke-width: 0.4px;
+    }
+
+    path.male {
+      fill: @fbk-vivid-blue;
+
+      &.is-highlighted {
+        fill: @fbk-vivid-blue !important;
+      }
+    }
+
+    path.female {
+      fill: @fbk-pink;
+      stroke-width: 0;
+
+      &.is-highlighted {
+        fill: @fbk-pink !important;
+      }
+    }
+
+    path.is-highlighted {
+      &.at-depth-0,
+      &.at-depth-1,
+      &.at-depth-2,
+      &.at-depth-3 {
+        & + text {
+          fill: @defaultLabelColor !important;
+        }
+      }
+
+      &.at-depth-4 {
+        & + text {
+          fill: @genderLabelColor !important;
+        }
+      }
+    }
+
+    path.base {
+      .pathColorsForPaths(@defaultCentreColor, 0%, 10%, 20%);
+    }
+
+    path.is-polo-umanistico {
+      .pathColorsForPaths(@poloUmanisticoColor, 0%, 10%, 20%);
+    }
+
+    path.is-polo-scientifico {
+      .pathColorsForPaths(@poloScientificoColor, 0%, 10%, 20%);
+    }
+
+    path.is-progetti-esplorativi {
+      .pathColorsForPaths(@progettiEsplorativiColor, 0%, 10%, 20%);
+    }
+
+    path.is-amministrazione-e-supporto-alla-ricerca {
+      .pathColorsForPaths(@administrationColor, 0%, 10%, 20%);
+    }
+
+    &.contains-highlights {
+      path.base,
+      path.gender {
+        fill: @inactiveColor;
+      }
+
+      text {
+        fill: @inactiveLabelColor;
+      }
+    }
+
+    .transition(background-image .5s ease-in-out);
+
+    background-image: url('data:image/svg+xml;utf-8,<svg enable-background="new 0 0 768 384" version="1.1" viewBox="0 0 768 384" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m768 379.9c0-2.1-0.1-4.1-0.1-6.2-0.1-2.1-0.1-4.1-0.2-6.2-0.1-2.8-0.3-5.5-0.4-8.3-0.3-4.1-0.6-8.2-1-12.4-0.2-2.1-0.4-4.1-0.6-6.2-0.6-5.5-1.4-10.9-2.2-16.4-0.4-2.7-0.9-5.4-1.4-8.1-0.7-4.1-1.5-8.1-2.4-12.2-0.1-0.7-0.3-1.3-0.4-2s-0.3-1.3-0.4-2c-9.8-43.8-27.2-85.5-51.5-123.3-21.2-33.1-47.4-62.7-77.6-87.9-43.2-35.7-93.6-61.7-147.7-76-26.7-7-54-11.2-81.5-12.4-2.8-0.1-5.5-0.2-8.3-0.3-2.1 0-4.1-0.1-6.2-0.1-3.4 0-6.9 0-10.3 0.1-1.4 0-2.8 0.1-4.1 0.1-2.8 0.1-5.5 0.2-8.3 0.4-2.1 0.1-4.1 0.2-6.2 0.4-0.7 0-1.4 0.1-2.1 0.1-0.7 0.1-1.4 0.1-2.1 0.2-3.4 0.3-6.9 0.6-10.3 1-2.1 0.2-4.1 0.5-6.2 0.7-2 0.3-4.1 0.5-6.1 0.8-1.4 0.2-2.7 0.4-4.1 0.6-11.6 1.8-23.1 4-34.4 6.8-15.4 3.8-30.5 8.5-45.3 14.2-32.8 12.7-63.8 29.7-92 50.7-1.7 1.2-3.3 2.5-4.9 3.7-2.7 2.1-5.4 4.2-8.1 6.4-3.7 3-7.4 6.2-11 9.3-7.8 6.8-15.2 13.9-22.4 21.4-0.5 0.5-1 1-1.4 1.5-0.5 0.5-1 1-1.4 1.5-4.3 4.5-8.4 9.1-12.5 13.8-1.3 1.6-2.7 3.1-4 4.7s-2.6 3.2-3.9 4.8c-0.4 0.5-0.9 1.1-1.3 1.6s-0.9 1.1-1.3 1.6c-0.9 1.1-1.7 2.2-2.5 3.3-0.4 0.5-0.8 1.1-1.3 1.6-1.3 1.6-2.5 3.3-3.7 5-3.7 5-7.2 10.1-10.7 15.2-18.3 27.6-33 57.4-43.7 88.7-2.2 6.5-4.3 13.1-6.1 19.7-9.4 33.4-14.2 67.7-14.4 102.1v2.1h192c0-42 13.8-82.9 39.3-116.3 4.4-5.8 9.1-11.3 14.1-16.5 26.1-27.3 59.8-46.3 96.6-54.5 103.5-23.2 206.2 41.9 229.4 145.3 3.1 13.8 4.7 27.9 4.7 42h192c-0.1-1.4-0.1-2.8-0.1-4.1z" fill="%23F7F7F7"/></svg>');
+    background-repeat: no-repeat;
+
+    &.has-been-rendered {
+      background-image: url('data:image/svg+xml;utf-8,<svg enable-background="new 0 0 768 384" version="1.1" viewBox="0 0 768 384" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"></svg>');
+    }
+  }
+}
+
+#sunburst-center-main {
+  position: relative;
+  top: -11.5rem;
+  pointer-events: none;
+  margin: 0 auto;
+  width: 50%;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10rem;
+    margin-bottom: 4rem;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #employees-number {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+  }
+
+  span {
+    width: 100%;
+    text-align: center;
+  }
+
+  .button-less,
+  .button-more {
+    cursor: pointer;
+    pointer-events: visible;
+    transition-duration: 0.5s;
+    transition-property: all;
+
+    &.disabled {
+      cursor: not-allowed;
+      opacity: 0.2;
+
+    }
+  }
+
+  .current-year {
+    cursor: pointer;
+    pointer-events: visible;
+  }
+
+  .breadcrumbs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.8rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 256px;
+
+      &:before {
+        content: '/';
+        display: inline-block;
+        padding: 0 8px;
+      }
+
+      &:first-child::before {
+        content: '';
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #chart-jobs-general {
+    height: @distributionChartHeight;
+    width: 100%;
+
+    g.male {
+      fill: @fbk-vivid-blue;
+    }
+
+    g.female {
+      fill: @fbk-pink;
+    }
+  }
+
+  &.is-zoomed-in {
+    .button-less,
+    .button-more {
+      transform: scale(0);
+    }
+  }
+}
+
+#sunburst-center-sub {
+  text-align: center;
+  position: relative;
+  top: -10rem;
+  margin: 0 auto;
+  overflow: hidden;
+  width: (10 / 12) * 100%;
+
+  .average-data {
+    color: @inactiveColor;
+    margin-top: 1rem;
+
+    .men {
+      color: @fbk-vivid-blue!important;
+    }
+
+    .women {
+      color: @fbk-pink;
+    }
+
+    .both {
+      color: @inactiveColor;
+    }
+  }
+
+  .average {
+    opacity: 1;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: @inactiveColor;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    position: relative;
+    top: 2rem;
+  }
+
+  p {
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 2rem;
+    font-size: 1.6rem;
+  }
+
+  @number-of-columns: 6;
+  @margin-between-columns: 4%;
+
+  .contains-determinato-chart,
+  .contains-dottorandi-chart,
+  .contains-indeterminato-chart,
+  .contains-jobs-act-chart,
+  .contains-stranieri-chart,
+  .contains-categoria-protetta-chart {
+    float: left;
+    margin: 0 @margin-between-columns 0 0;
+    width: (100% - ((@number-of-columns - 1) * @margin-between-columns)) / @number-of-columns;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    svg {
+      background-color: @inactiveColor;
+      height: @distributionChartHeight;
+      position: relative;
+      width: 100%;
+
+      g.male {
+        fill: @fbk-vivid-blue;
+      }
+
+      g.female {
+        fill: @fbk-pink;
+      }
+    }
+  }
+}
+
+#sunburst-tooltip {
+  background: white;
+  border: 3px solid @fbk-blue;
+  padding: 16px;
+  pointer-events: none;
+  position: absolute;
+  max-width: 170px;
+  box-shadow: 6px 7px 0 @fbk-blue;
+  font-size: 1.4rem;
+  font-weight: 400;
+  z-index: 1000;
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+  }
+
+  p {
+    margin: 0;
+    line-height: 2.2rem;
+    font-weight: 600;
+  }
+
+  strong {
+    font-weight: 400;
+  }
+}

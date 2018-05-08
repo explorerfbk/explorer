@@ -1,0 +1,290 @@
+{
+  "2014": [
+    {
+      "image": "./data/venues/sede-operativa.svg",
+      "title": "Polo Scientifico",
+      "address": ["FBK", "Via Sommarive, 18 Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/949",
+      "location": "canone di locazione",
+      "rent": 0,
+      "revenue":  46112.09
+    },
+    {
+      "image": "./data/venues/sede-legale-santa-croce.svg",
+      "title": "Polo Umanistico",
+      "address": ["Via Santa Croce, 77", "38122 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/950",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "title": "Polo Umanistico",
+      "address": ["Sede temporanea IRVAPP e CSSR ","Via Santa Croce 65", "38122 Trento"],
+      "square_footage": "Comune di Trento",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/947",
+      "location": "canone di affitto",
+      "rent":  72514,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-villa.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede Centro ECT*","Via delle Tabarelle, 286 Villazzano", "38123 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17470",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-operativa-cascata.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede staccata centro ICT", "Via alla Cascata, 56 C-D, Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/946",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "title": "Alloggio di servizio",
+      "address": ["","Piazza Prati degli Strozzi 26", "00195 Roma"],
+      "square_footage": "privato",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/948",
+      "location": "canone di affitto",
+      "rent":  19200,
+      "revenue": 0
+    }
+  ],
+  "2015": [
+    {
+      "image": "./data/venues/sede-operativa.svg",
+      "title": "Polo Scientifico",
+      "address": ["FBK", "Via Sommarive, 18 Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/949",
+      "location": "canone di locazione",
+      "rent": 0,
+      "revenue":  1698.40
+    },
+    {
+      "image": "./data/venues/sede-operativa-cascata.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede staccata centro ICT", "Via alla Cascata, 56 C-D, Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/946",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-legale-santa-croce.svg",
+      "title": "Polo Umanistico",
+      "address": ["Via Santa Croce, 77", "38122 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/950",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-villa.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede Centro ECT*","Via delle Tabarelle, 286 Villazzano", "38123 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17470",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "title": "Polo Umanistico",
+      "address": ["Sede temporanea IRVAPP e CSSR ","Via Santa Croce 65", "38122 Trento"],
+      "square_footage": "Comune di Trento",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/947",
+      "location": "canone di affitto",
+      "rent":  58082.81,
+      "revenue": 0
+    },
+    {
+      "title": "",
+      "address": ["Alloggio di servizio","Piazza Prati degli Strozzi 26", "00195 Roma"],
+      "square_footage": "privato",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/948",
+      "location": "canone di affitto",
+      "rent":  19200,
+      "revenue": 0
+    }
+  ],
+  "2016": [
+    {
+      "image": "./data/venues/sede-operativa.svg",
+      "title": "Polo Scientifico",
+      "address": ["FBK", "Via Sommarive, 18 Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/949",
+      "location": "canone di locazione",
+      "rent": 0,
+      "revenue":  54545.60
+    },
+    {
+      "image": "./data/venues/sede-operativa-cascata.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede staccata centro ICT", "Via alla Cascata, 56 C-D, Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/946",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-legale-santa-croce.svg",
+      "title": "Polo Umanistico",
+      "address": ["Via Santa Croce, 77", "38122 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/950",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-villa.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede Centro ECT*","Via delle Tabarelle, 286 Villazzano", "38123 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17470",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "type": "indoor",
+      "image": "./data/venues/sede-porta.svg",
+      "title": "Polo Umanistico",
+      "address": ["sede Centro IRVAPP","Vicolo Dallapiccola, 12", "38122 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17471",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "title": "",
+      "address": ["Alloggio di servizio","Piazza Prati degli Strozzi 26", "00195 Roma"],
+      "square_footage": "privato",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/948",
+      "location": "canone di affitto",
+      "rent":  11200,
+      "revenue": 0
+    }
+  ],
+  "2017": [
+    {
+      "image": "./data/venues/sede-operativa.svg",
+      "title": "Polo Scientifico",
+      "address": ["FBK", "Via Sommarive, 18 Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/949",
+      "location": "canone di locazione",
+      "rent": 0,
+      "revenue":  69045.59
+    },
+    {
+      "image": "./data/venues/sede-operativa-cascata.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede centro Create Net", "Via alla Cascata, 56 C-D, Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/946",
+      "location": "canone di locazione",
+      "rent": 0,
+      "revenue": 39556.25
+    },
+    {
+      "image": "./data/venues/sede-legale-santa-croce.svg",
+      "title": "Polo Umanistico",
+      "address": ["Via Santa Croce, 77", "38122 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/950",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-villa.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede Centro ECT*","Via delle Tabarelle, 286 Villazzano", "38123 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17470",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "type": "indoor",
+      "image": "./data/venues/sede-porta.svg",
+      "title": "Polo Umanistico",
+      "address": ["sede Centro IRVAPP","Vicolo Dallapiccola, 12", "38122 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17471",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    }
+  ],
+  "2018": [
+    {
+      "image": "./data/venues/sede-operativa.svg",
+      "title": "Polo Scientifico",
+      "address": ["FBK", "Via Sommarive, 18 Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/949",
+      "location": 0,
+      "rent": 0,
+      "revenue":  0
+    },
+    {
+      "image": "./data/venues/sede-operativa-cascata.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede centro Create Net", "Via alla Cascata, 56 C-D, Povo", "38123 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/946",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-legale-santa-croce.svg",
+      "title": "Polo Umanistico",
+      "address": ["Via Santa Croce, 77", "38122 Trento"],
+      "square_footage": "Fondazione Bruno Kessler",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/950",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "image": "./data/venues/sede-villa.svg",
+      "title": "Polo Scientifico",
+      "address": ["sede Centro ECT*","Via delle Tabarelle, 286 Villazzano", "38123 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17470",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    },
+    {
+      "type": "indoor",
+      "image": "./data/venues/sede-porta.svg",
+      "title": "Polo Umanistico",
+      "address": ["sede Centro IRVAPP","Vicolo Dallapiccola, 12", "38122 Trento"],
+      "square_footage": "Provincia autonoma di Trento - comodato d'uso gratuito",
+      "plan": "https://trasparenza.fbk.eu/content/view/full/17471",
+      "location": 0,
+      "rent": 0,
+      "revenue": 0
+    }
+  ]
+}

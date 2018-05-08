@@ -1,0 +1,350 @@
+{
+	"2015": {
+		"AMMINISTRAZIONE": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 1432182.6300000001,
+				"investimenti_in_accordo_di_programma": 9563.7,
+				"personale": 6334060.2,
+				"viaggi": 82906.40999999999
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 6568.67,
+				"altri_ricavi": 194823.75,
+				"commesse_con_privati": 50321.73,
+				"progetti_europei": 12061.15,
+				"ricavi_progetti_e_convegni": 36239.780000000006,
+				"accordo_di_programma": 7612727.13
+			}
+		},
+		"CMM": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 2688035.81,
+				"investimenti_in_accordo_di_programma": 512475.47,
+				"personale": 5510583.63,
+				"phd": 261888.53999999998,
+				"viaggi": 226403.09
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 194778.87000000002,
+				"altri_ricavi": 19168.39,
+				"commesse_con_privati": 1037160.21,
+				"progetti_europei": 1194782.96,
+				"ricavi_progetti_e_convegni": 42623.01,
+				"accordo_di_programma": 5481826.91
+			}
+		},
+		"ECT*": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 348138.63,
+				"investimenti_in_accordo_di_programma": 169.69,
+				"personale": 1068408.17,
+				"phd": 51749.96,
+				"viaggi": 33654.17
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 25455.04,
+				"altri_ricavi": 1207.0,
+				"commesse_con_privati": 122532.47,
+				"progetti_europei": 25778.81,
+				"ricavi_progetti_e_convegni": 435000.0,
+				"accordo_di_programma": 804854.5599999999
+			}
+		},
+		"FUNZIONAMENTO": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 4899175.86,
+				"i/c_costi/(ricavi)": 0.0,
+				"investimenti_in_accordo_di_programma": 1043316.73,
+				"personale": 0.0
+			},
+			"incoming": {
+				"altri_ricavi": 356403.52999999997,
+				"progetti_europei": 189383.83,
+				"ricavi": 4000.0,
+				"ricavi_progetti_e_convegni": 36242.96,
+				"accordo_di_programma": 5036535.55
+			}
+		},
+		"ICT": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 1031429.9699999999,
+				"investimenti_in_accordo_di_programma": 63675.21,
+				"personale": 8792945.07999999,
+				"phd": 933441.36,
+				"viaggi": 384853.32
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 1113721.03,
+				"altri_ricavi": 112576.45999999999,
+				"commesse_con_privati": 1096143.7000000002,
+				"progetti_europei": 3559210.26,
+				"ricavi_progetti_e_convegni": 479.26,
+				"accordo_di_programma": 5625279.279999999
+			}
+		},
+		"IRVAPP": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 220102.54,
+				"investimenti_in_accordo_di_programma": 2027.0100000000002,
+				"personale": 886774.11,
+				"phd": 20670.22,
+				"viaggi": 35976.74
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 228013.69,
+				"commesse_con_privati": 172358.92,
+				"progetti_europei": 59894.57,
+				"ricavi_progetti_e_convegni": 5000.0,
+				"accordo_di_programma": 751303.38
+			}
+		},
+		"ISIG": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 109991.81,
+				"investimenti_in_accordo_di_programma": 87796.27,
+				"personale": 641543.19,
+				"phd": 36463.259999999995,
+				"viaggi": 26391.870000000003
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 92010.51,
+				"altri_ricavi": 2848.0,
+				"commesse_con_privati": 4887.870000000001,
+				"accordo_di_programma": 740653.17
+			}
+		},
+		"ISR": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 163814.41,
+				"investimenti_in_accordo_di_programma": 28029.85,
+				"personale": 473905.04,
+				"viaggi": 20491.420000000002
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 3735.5,
+				"altri_ricavi": 35503.0,
+				"commesse_con_privati": 13304.24,
+				"progetti_europei": 0.0,
+				"ricavi_progetti_e_convegni": 24431.74,
+				"accordo_di_programma": 568465.78
+			}
+		},
+		"PARTECIPATE": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 301200.0
+			},
+			"incoming": {
+				"accordo_di_programma": 301200.0
+			}
+		},
+		"PARTECIPAZIONI E SPIN-OFF": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 51287.0
+			},
+			"incoming": {
+				"accordo_di_programma": 51287.0
+			}
+		},
+		"PROGETTI SPECIALI": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 127104.93,
+				"personale": 848277.74,
+				"viaggi": 24032.99
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 504408.18,
+				"altri_ricavi": 200.0,
+				"progetti_europei": 81152.01000000001,
+				"accordo_di_programma": 413655.47
+			}
+		}
+	},
+	"2016": {
+		"AMMINISTRAZIONE": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 1249703.51,
+				"investimenti_in_accordo_di_programma": 32.94,
+				"personale": 6615573.73,
+				"viaggi": 90938.09
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 4344.68,
+				"altri_ricavi": 154648.21,
+				"commesse_con_privati": 4580.639999999999,
+				"progetti_europei": 2192.06,
+				"ricavi_progetti_e_convegni": 73600.6,
+				"accordo_di_programma": 7741011.13
+			}
+		},
+		"CMM": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 2412825.7199999997,
+				"investimenti_in_accordo_di_programma": 370901.38,
+				"personale": 5651183.100000001,
+				"phd": 308356.75,
+				"viaggi": 209892.77000000002
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 22162.199999999997,
+				"altri_ricavi": 10490.0,
+				"commesse_con_privati": 1302786.61,
+				"progetti_europei": 1445471.17,
+				"ricavi_progetti_e_convegni": 89182.63,
+				"accordo_di_programma": 4843008.7
+			}
+		},
+		"ECT*": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 292885.13,
+				"investimenti_in_accordo_di_programma": 5730.2699999999995,
+				"personale": 1029406.98,
+				"phd": 48318.93,
+				"viaggi": 28174.95
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 132.530000000001,
+				"altri_ricavi": 126.62,
+				"commesse_con_privati": 59700.83,
+				"progetti_europei": 112775.64,
+				"ricavi_progetti_e_convegni": 404149.78,
+				"accordo_di_programma": 774038.0
+			}
+		},
+		"FUNZIONAMENTO": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 5038829.45,
+				"i/c_costi/(ricavi)": 55739.73,
+				"investimenti_in_accordo_di_programma": 469418.67000000004,
+				"personale": 0.0,
+				"phd": 5569.88,
+				"viaggi": 534.96
+			},
+			"incoming": {
+				"altri_ricavi": 391710.91000000003,
+				"commesse_con_privati": 791.44,
+				"progetti_europei": 229853.7,
+				"ricavi_progetti_e_convegni": 37068.420000000006,
+				"accordo_di_programma": 4555449.94
+			}
+		},
+		"ICT": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 1069884.76,
+				"i/c_costi/(ricavi)": 10664.0,
+				"investimenti_in_accordo_di_programma": 63152.54,
+				"personale": 9170585.54,
+				"phd": 845144.28,
+				"viaggi": 378589.66
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 3723.19,
+				"altri_ricavi": 59881.24,
+				"commesse_con_privati": 1593762.1099999999,
+				"progetti_europei": 4100474.9899999998,
+				"ricavi_progetti_e_convegni": 44332.439999999995,
+				"accordo_di_programma": 5217420.87
+			}
+		},
+		"IRVAPP": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 107284.78,
+				"personale": 897152.55,
+				"viaggi": 28491.399999999998
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 259650.77000000002,
+				"commesse_con_privati": 72657.65000000001,
+				"progetti_europei": 83026.98,
+				"ricavi_progetti_e_convegni": 6500.0,
+				"accordo_di_programma": 626345.2200000001
+			}
+		},
+		"ISIG": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 126955.33,
+				"investimenti_in_accordo_di_programma": 26203.73,
+				"personale": 659060.51,
+				"viaggi": 22659.13
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 7040.710000000009,
+				"altri_ricavi": 1040.0,
+				"commesse_con_privati": 33616.31,
+				"ricavi_progetti_e_convegni": 12400.0,
+				"accordo_di_programma": 779391.21
+			}
+		},
+		"ISR": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 142212.77000000002,
+				"investimenti_in_accordo_di_programma": 3475.12,
+				"personale": 415920.02999999997,
+				"viaggi": 26498.62
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 2833.83,
+				"altri_ricavi": 31152.0,
+				"commesse_con_privati": 3689.53,
+				"progetti_europei": 367.4,
+				"ricavi_progetti_e_convegni": 13098.359999999999,
+				"accordo_di_programma": 495793.93
+			}
+		},
+		"PARTECIPATE": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 311800.0
+			},
+			"incoming": {
+				"accordo_di_programma": 311800.0
+			}
+		},
+		"PARTECIPAZIONI E SPIN-OFF": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 23745.640000000003
+			},
+			"incoming": {
+				"altri_ricavi": 40091.42,
+				"ricavi": 5000.0,
+				"accordo_di_programma": 20735.78
+			}
+		},
+		"PROGETTI SPECIALI": {
+			"polo": "FBK",
+			"expenses": {
+				"altre_spese": 237826.1,
+				"investimenti_in_accordo_di_programma": 2559.8,
+				"personale": 833976.41,
+				"viaggi": 12811.74
+			},
+			"incoming": {
+				"altre_agenzie_pubbliche": 782.25,
+				"altri_ricavi": 1699.3799999999999,
+				"commesse_con_privati": 277989.08999999997,
+				"progetti_europei": 53300.77,
+				"ricavi_progetti_e_convegni": 23800.0,
+				"accordo_di_programma": 779721.17
+			}
+		}
+	}
+}

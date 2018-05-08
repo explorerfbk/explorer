@@ -1,0 +1,2947 @@
+{
+  "2015": {
+    "sections": [{
+        "title": "Consiglio di Amministrazione",
+        "elements": [{
+            "name": "Francesco Profumo",
+            "role": "Presidente",
+            "gender": "male",
+            "image": "images/pictures/francesco_profumo.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "70.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Giulio Bonazzi",
+            "role": "Vicepresidente",
+            "gender": "male",
+            "image": "images/pictures/giulio_bonazzi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/795",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "5.075,00 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Umberto Dosselli",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/umberto_dosselli.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/788",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Vanessa Cattoi",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/vanessa_cattoi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/785",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Paolo Collini",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/paolo_collini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/786",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "4.608,33 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Roberto Della Marina",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/roberto_dellamarina.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/787",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Simona Heidempergher",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/simona_heidempergher.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/790",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Lorenzo Gonzo",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/lorenzo_gonzo.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/789",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000,00 &euro;"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Comitato Scientifico",
+        "elements": [{
+            "name": "Maurizio Sobrero",
+            "role": "presidente Comitato Scientifico",
+            "gender": "male",
+            "image": "images/pictures/maurizio_sobrero.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Comitato-Scientifico/Maurizio-Sobrero",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "25.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Carla Fabiana Chiasserini",
+            "role": "componente area ICT",
+            "gender": "female",
+            "image": "images/pictures/fabiana_chiasserini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3517",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Marco Gori",
+            "role": "Referente Area ICT",
+            "gender": "male",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3515",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro;3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Francesca Rossi",
+            "role": "Componente Area ICT",
+            "gender": "female",
+            "image": "images/pictures/francesca_rossi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3523",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Pasqualina Sarro",
+            "role": "Componente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/pasqualina_sarro.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3524",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Andrea Vacchi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "male",
+            "image": "images/pictures/andrea_vacchi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3516",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro;3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Roberta Ramponi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/roberta_ramponi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3522",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Guido Pellegrini",
+            "role": "Componente Area Scienze Umane e Sociali",
+            "gender": "male",
+            "image": "images/pictures/guido_pellegrini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3521",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Sebastiano Maffettone",
+            "role": "Componente Area Scienze Umane e Sociali",
+            "gender": "male",
+            "image": "images/pictures/sebastiano_maffettone.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3520",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio Sindacale",
+        "elements": [{
+            "name": "Marcello Condini",
+            "role": "presidente Collegio Sindacale",
+            "gender": "male",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3494",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "7.200 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Della Pietra Franca",
+            "role": "Collegio Sindacale",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3525",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "6.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Lucia Zandonella Maiucco",
+            "role": "Membro Collegio Sindacale",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3495",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": " 750 &euro;"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio dei Fondatori e dei Sostenitori",
+        "elements": [{
+            "name": "Provincia Autonoma di Trento",
+            "role": "fondatore",
+            "gender": "",
+            "permalink": "http://www.provincia.tn.it/",
+            "image": "images/logo/logo_pat.jpg",
+            "details": {}
+          },
+          {
+            "name": "Comune di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.trento.it/",
+            "image": "images/logo/trento_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Comune di Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.rovereto.tn.it/",
+            "image": "images/logo/rovereto_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Camera di Commercio, Industria, Artigianato e Agricoltura della Provincia di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.tn.camcom.it/",
+            "image": "images/logo/cciaa_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Confindustria Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.confindustria.tn.it",
+            "image": "images/logo/confindustria_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Banca di Trento e Bolzano",
+            "role": "",
+            "gender": "",
+            "permalink": "https://asisp.intesasanpaolo.com/intesa-web/tree/btb/Banca-di-Trento-e-Bolzano/hierBrowser.html",
+            "image": "",
+            "details": {}
+          },
+          {
+            "name": "Fondazione Cassa di Risparmio di Trento e Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.fondazionecaritro.it/",
+            "image": "images/logo/caritro_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Federazione Trentina della Cooperazione",
+            "role": "",
+            "gender": "",
+            "permalink": "https://www.cooperazionetrentina.it/",
+            "image": "images/logo/cooperazionetrentina_logo.png",
+            "details": {}
+          }
+        ]
+      }
+    ],
+    "overview": [{
+        "name": "Consiglio di Amministrazione",
+        "parent": null
+      },
+      {
+        "name": "Partecipate in AdP",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Associazione Create.Net",
+        "role": "Partecipata",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Enti-controllati/Enti-di-diritto-privato-controllati-in-Accordo-di-Programma/Archivio-Enti-controllati-in-Accordo-di-Programma/Associazione-CREATE-NET"
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Fondazione Graphitech",
+        "role": "Partecipata",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/4743"
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Fondazione AHREF",
+        "role": "in liquidazione",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Enti-controllati/Enti-di-diritto-privato-controllati-in-Accordo-di-Programma/Archivio-Enti-controllati-in-Accordo-di-Programma/Fondazione-AHREF-in-liquidazione-dal-23-ottobre-2016"
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Consorzio CELCT",
+        "role": "in liquidazione",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          }
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Resp. del Servizio Prevenzione e Protezione",
+        "role": "Roberto Dalla Costa",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "59.102,02 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Dirigenti-cessati/Dallacosta-Roberto"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Francesco Profumo",
+        "role": "Presidente",
+        "image": "images/pictures/francesco_profumo.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "70.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Andrea Simoni",
+        "role": "Segreteria Generale",
+        "image": "images/pictures/andrea_simoni.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "149.999,85 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-amministrativi-di-vertice/Simoni-Andrea"
+        },
+        "parent": "Francesco Profumo"
+      },
+      {
+        "name": "Comitato Scientifico",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Collegio sindacale",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Unità di staff",
+        "role": "altre Unità di staff",
+        "parent": "Andrea Simoni",
+        "related": ["Francesco Profumo"]
+      },
+      {
+        "name": "Roberto Dallacosta",
+        "role": "Unità sicurezza e prevenzione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "58.890,82 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Dirigenti-cessati/Dallacosta-Roberto"
+        },
+        "parent": "Unità di staff"
+      },
+      {
+        "name": "Bruno Caprile",
+        "role": "Valutazione della Ricerca",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Caprile-Bruno"
+        },
+        "parent": "Unità di staff"
+      },
+      {
+        "name": "Sara Giovannini",
+        "role": "Ufficio Legale",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3505"
+        },
+        "parent": "Unità di staff"
+      },
+      {
+        "name": "Silvia Malesardi - Barbara Gazzoli",
+        "role": "Comunicazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Malesardi-Silvia",
+          "permalink1": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Archivio-posizioni-organizzative/Gazzoli-Barbara"
+        },
+        "parent": "Unità di staff"
+      },
+      {
+        "name": "Polo Scientifico Tecnologico",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Paolo Traverso",
+        "role": "direttore centro ICT",
+        "image": "images/pictures/paolo_traverso.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "120.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Traverso-Paolo"
+        },
+        "parent": "Polo Scientifico Tecnologico"
+      },
+      {
+        "name": "Massimo Gentili",
+        "role": "direttore CMM",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "156.567,99 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Dirigenti-cessati/Gentili-Massimo"
+        },
+        "parent": "Polo Scientifico Tecnologico"
+      },
+      {
+        "name": "Wolfram Weise",
+        "role": "direttore ECT* | ECT*/Lisc",
+        "image": "images/pictures/wolfram_weise.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "70.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/701"
+        },
+        "parent": "Polo Scientifico Tecnologico"
+      },
+      {
+        "name": "Marco Andreatta",
+        "role": "direttore CIRM",
+        "image": "images/pictures/marco_andreatta.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "4.198,32 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Dirigenti-cessati/Andreatta-Marco"
+        },
+        "parent": "Polo Scientifico Tecnologico"
+      },
+      {
+        "name": "Progetti speciali",
+        "role": "Andrea Simoni",
+        "parent": "Polo Scientifico Tecnologico"
+      },
+      {
+        "name": "Polo delle Scienze Umane e Sociali",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Paolo Pombeni",
+        "role": "direttore ISIG",
+        "image": "images/pictures/paolo_pombeni.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "70.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/698"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Alberto Bondolfi",
+        "role": "direttore ISR",
+        "image": "images/pictures/alberto_bondolfi.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "51.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/697"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Antonio Schizzerotto",
+        "role": "direttore IRVAPP",
+        "image": "images/pictures/antonio_schizzerotto.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "68.999,87 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Schizzerotto-Antonio"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Progetti speciali",
+        "role": "Andrea Simoni",
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Comparto Amministrazione Servizi di Supporto alla Ricerca",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Umberto Silvestri",
+        "role": "Amministrazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "114.999,94 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Silvestri-Umberto"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Alessandro Dalla Torre",
+        "role": "Risorse Umane",
+        "image": "images/pictures/alessandro_dallatorre.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "110.000  &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3168"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Giuliano Muzio",
+        "role": "Area Innovazione e Rapporti con il territorio",
+        "image": "images/pictures/giuliano_muzio.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Archivio-posizioni-organizzative/Muzio-Giuliano"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Marco De Rosa",
+        "role": "Innovazione Tecnologica e Servizi Informativi",
+        "image": "images/pictures/marco_derosa.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/De-Rosa-Marco"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Rinaldo Maffei",
+        "role": "Patrimonio",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "31.538,52  &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/703"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Chiara Zanoni",
+        "role": "Supporto al polo delle Scienze Umane e Sociali",
+        "image": "images/pictures/chiara_zanoni.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Zanoni-Zorzi-Chiara"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      }
+    ]
+  },
+  "2016": {
+    "sections": [{
+        "title": "Consiglio di Amministrazione",
+        "elements": [{
+            "name": "Francesco Profumo",
+            "role": "Presidente",
+            "gender": "male",
+            "image": "images/pictures/francesco_profumo.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "70.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Ilaria Vescovi",
+            "role": "Vicepresidente",
+            "gender": "female",
+            "image": "images/pictures/ilaria_vescovi.gif",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/782",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Alberto Carli",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/albertocarli.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/783",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Vanessa Cattoi",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/vanessa_cattoi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/785",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Paolo Collini",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/paolo_collini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/786",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Roberto Della Marina",
+            "role": "Consigliere",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/787",
+            "image": "images/pictures/roberto_dellamarina.jpg",
+            "gender": "male",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Speranza Falciano",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/speranza_falciano.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13473",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Simona Heidempergher",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/simona_heidempergher.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/790",
+
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Lorenzo Gonzo",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/lorenzo_gonzo.jpg",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              },
+              "permalink": "https://trasparenza.fbk.eu/content/view/full/789"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Comitato Scientifico",
+        "elements": [{
+            "name": "Maurizio Sobrero",
+            "role": "presidente Comitato Scientifico",
+            "gender": "male",
+            "image": "images/pictures/maurizio_sobrero.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Comitato-Scientifico/Maurizio-Sobrero",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "25.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Carla Fabiana Chiasserini",
+            "role": "componente area ICT",
+            "gender": "female",
+            "image": "images/pictures/fabiana_chiasserini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3517",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Marco Gori",
+            "role": "Referente Area ICT",
+            "gender": "male",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3515",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro; 3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Francesca Rossi",
+            "role": "Componente Area ICT",
+            "gender": "female",
+            "image": "images/pictures/francesca_rossi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3523",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Pasqualina Sarro",
+            "role": "Componente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/pasqualina_sarro.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3524",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Andrea Vacchi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "male",
+            "image": "images/pictures/andrea_vacchi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3516",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro;3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Roberta Ramponi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/roberta_ramponi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3522",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Marco Ajmone Marsan",
+            "role": "Componente Area CREATE-NET",
+            "gender": "male",
+            "image": "images/pictures/marco_ajmone_marsan.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13666",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Luigi Gambardella",
+            "role": "Componente Area CREATE-NET",
+            "gender": "male",
+            "image": "images/pictures/luigi_gambardella.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13668",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Guido Pellegrini",
+            "role": "Componente Area Scienze Umane e Sociali",
+            "gender": "male",
+            "image": "images/pictures/guido_pellegrini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3521",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Sebastiano Maffettone",
+            "role": "Componente Area Scienze Umane e Sociali",
+            "gender": "male",
+            "image": "images/pictures/sebastiano_maffettone.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3520",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio Sindacale",
+        "elements": [{
+            "name": "Marcello Condini",
+            "role": "presidente Collegio Sindacale",
+            "gender": "male",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3494",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "7.200 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Laura Pedron",
+            "role": "Membro effettivo del Collegio sindacale",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.200 &euro;"
+              },
+              "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Collegio-Sindacale/Archivio-Collegio-Sindacale/Laura-Pedron"
+            },
+            "parent": "Collegio sindacale"
+          },
+          {
+            "name": "Della Pietra Franca",
+            "role": "Membro effettivo del Collegio sindacale ",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3525",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "6.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Lucia Zandonella Maiucco",
+            "role": "Membro effettivo del Collegio sindacale ",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3495",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": " 7.200 &euro;"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio dei Fondatori e dei Sostenitori",
+        "elements": [{
+            "name": "Provincia Autonoma di Trento",
+            "role": "fondatore",
+            "gender": "",
+            "permalink": "http://www.provincia.tn.it/",
+            "image": "images/logo/logo_pat.jpg",
+            "details": {}
+          },
+          {
+            "name": "Comune di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.trento.it/",
+            "image": "images/logo/trento_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Comune di Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.rovereto.tn.it/",
+            "image": "images/logo/rovereto_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Camera di Commercio, Industria, Artigianato e Agricoltura della Provincia di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.tn.camcom.it/",
+            "image": "images/logo/cciaa_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Banca di Trento e Bolzano",
+            "role": "",
+            "gender": "",
+            "permalink": "https://asisp.intesasanpaolo.com/intesa-web/tree/btb/Banca-di-Trento-e-Bolzano/hierBrowser.html",
+            "image": "",
+            "details": {}
+          },
+          {
+            "name": "Confindustria Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.confindustria.tn.it",
+            "image": "images/logo/confindustria_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Fondazione Cassa di Risparmio di Trento e Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.fondazionecaritro.it/",
+            "image": "images/logo/caritro_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Federazione Trentina della Cooperazione",
+            "role": "",
+            "gender": "",
+            "permalink": "https://www.cooperazionetrentina.it/",
+            "image": "images/logo/cooperazionetrentina_logo.png",
+            "details": {}
+          }
+        ]
+      }
+    ],
+    "overview": [{
+        "name": "Consiglio di Amministrazione",
+        "parent": null
+      },
+      {
+        "name": "Organismo di Vigilanza",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "avv. Marco Grotto",
+        "role": "presidente organismo di Vigilanza",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "ing Sergio Orsinger",
+        "role": "componente esterno",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "avv. Sara Giovannini",
+        "role": "componente interno",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "Resp. del Servizio Prevenzione e Protezione",
+        "role": "Roberto Dalla Costa",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "59.102,02 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Dirigenti-cessati/Dallacosta-Roberto"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Francesco Profumo",
+        "role": "Presidente",
+        "image": "images/pictures/francesco_profumo.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "70.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Andrea Simoni",
+        "role": "Segreteria Generale",
+        "image": "images/pictures/andrea_simoni.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "149.999,85 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-amministrativi-di-vertice/Simoni-Andrea"
+        },
+        "parent": "Francesco Profumo"
+      },
+      {
+        "name": "Comitato Scientifico",
+        "parent": "Consiglio di Amministrazione",
+        "related": ["Francesco Profumo"]
+      },
+      {
+        "name": "Collegio sindacale",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Marcello Condini",
+        "role": "presidente Collegio Sindacale",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "indennità di carica",
+            "value": "6.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3494"
+        },
+        "parent": "Collegio sindacale"
+      },
+      {
+        "name": "Lucia Zandonella Maiucco",
+        "role": "Membro Collegio Sindacale",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "indennità di carica",
+            "value": " 2016 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3495"
+        },
+        "parent": "Collegio sindacale"
+      },
+      {
+        "name": "Laura Pedron",
+        "role": "Membro effettivo del Collegio sindacale",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "7.200 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Collegio-Sindacale/Archivio-Collegio-Sindacale/Laura-Pedron"
+        },
+        "parent": "Collegio sindacale"
+      },
+      {
+        "name": "Partecipate in AdP",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Associazione Create.Net",
+        "role": "Partecipata",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Enti-controllati/Enti-di-diritto-privato-controllati-in-Accordo-di-Programma/Archivio-Enti-controllati-in-Accordo-di-Programma/Associazione-CREATE-NET"
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Fondazione Graphitech",
+        "role": "Partecipata",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/4743"
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Fondazione AHREF",
+        "role": "in liquidazione",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Enti-controllati/Enti-di-diritto-privato-controllati-in-Accordo-di-Programma/Archivio-Enti-controllati-in-Accordo-di-Programma/Fondazione-AHREF-in-liquidazione-dal-23-ottobre-2016"
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Consorzio CELCT",
+        "role": "in liquidazione",
+        "details": {
+          "salary": {
+            "label": "partecipazione",
+            "value": "diretta"
+          }
+        },
+        "parent": "Partecipate in AdP"
+      },
+      {
+        "name": "Unità di staff",
+        "role": "altre Unità di staff",
+        "parent": "Andrea Simoni",
+        "related": ["Francesco Profumo"]
+      },
+      {
+        "name": "Bruno Caprile",
+        "role": "Valutazione della Ricerca",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Caprile-Bruno"
+        },
+        "parent": "Unità di staff"
+      },
+      {
+        "name": "Sara Giovannini",
+        "image": "images/pictures/default.png",
+        "role": "Ufficio Legale",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3505"
+        },
+        "parent": "Unità di staff"
+      },
+      {
+        "name": "Silvia Malesardi - Barbara Gazzoli",
+        "role": "Comunicazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Malesardi-Silvia",
+          "permalink1": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Archivio-posizioni-organizzative/Gazzoli-Barbara"
+        },
+        "parent": "Unità di staff"
+      },
+      {
+        "name": "Polo Scientifico",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Paolo Traverso",
+        "role": "ICT",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "131.510,47 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Traverso-Paolo"
+        },
+        "image": "images/pictures/paolo_traverso.jpg",
+        "parent": "Polo Scientifico"
+      },
+      {
+        "name": "Gianluigi Casse",
+        "role": "CMM",
+        "image": "https://cmm.fbk.eu/wp-content/uploads/2017/09/GIO5035-1-e1505394211988.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "135,217,94 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Casse-Gianluigi"
+        },
+        "parent": "Polo Scientifico"
+      },
+      {
+        "name": "Wambach Jochen",
+        "role": "ECT* | ECT*/Lisc",
+        "image": "images/pictures/wambach_jochen.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "82.000,00 euro"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3528"
+        },
+        "parent": "Polo Scientifico"
+      },
+      {
+        "name": "da definire",
+        "role": "CREATE-NET",
+        "image": "images/pictures/default.png",
+        "parent": "Polo Scientifico"
+      },
+      {
+        "name": "Polo delle Scienze Umane e Sociali",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Paolo Pombeni",
+        "role": "ISIG",
+        "image": "http://legacy.fbk.eu/sites/www.fbk.eu/files/styles/adaptive/public/fbk_pombeni_36491_0.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "70.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/698"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Marco Ventura",
+        "role": "ISR",
+        "image": "images/pictures/marco_ventura.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "45.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3526"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Antonio Schizzerotto",
+        "role": "IRVAPP",
+        "image": "images/pictures/antonio_schizzerotto.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "68.999,87 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Schizzerotto-Antonio"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Progetti Speciali",
+        "role": "Andrea Simoni",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Comparto Amministrazione Servizi di Supporto alla Ricerca",
+        "parent": "Andrea Simoni"
+      }, {
+        "name": "Umberto Silvestri",
+        "role": "Amministrazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "109.999,94 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Silvestri-Umberto"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Paola Angeli",
+        "role": "Appalti e Contratti",
+        "image": "images/pictures/paola_angeli.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "52.360.55 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Angeli-Paola"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Alessandro Dalla Torre",
+        "role": "Risorse Umane",
+        "image": "images/pictures/alessandro_dallatorre.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "110.000  &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3168"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Giuliano Muzio",
+        "role": "Area Innovazione e Rapporti con il territorio",
+        "image": "images/pictures/giuliano_muzio.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Archivio-posizioni-organizzative/Muzio-Giuliano"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Marco De Rosa",
+        "role": "IT, Infrastrutture e Patrimonio",
+        "image": "images/pictures/marco_derosa.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": " 80.362,09 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/De-Rosa-Marco"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Chiara Zanoni",
+        "role": "Supporto al polo delle Scienze Umane e Sociali",
+        "image": "images/pictures/chiara_zanoni.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Zanoni-Zorzi-Chiara"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      }
+    ]
+  },
+  "2017": {
+    "sections": [{
+        "title": "Consiglio di Amministrazione",
+        "elements": [{
+            "name": "Francesco Profumo",
+            "role": "Presidente",
+            "gender": "male",
+            "image": "images/pictures/francesco_profumo.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "70.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Ilaria Vescovi",
+            "role": "Vicepresidente",
+            "gender": "female",
+            "image": "images/pictures/ilaria_vescovi.gif",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/782",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Alberto Carli",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/albertocarli.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/783",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Vanessa Cattoi",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/vanessa_cattoi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/785",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Paolo Collini",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/paolo_collini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/786",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Roberto Della Marina",
+            "role": "Consigliere",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/787",
+            "image": "images/pictures/roberto_dellamarina.jpg",
+            "gender": "male",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Speranza Falciano",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/speranza_falciano.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13473",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Simona Heidempergher",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/simona_heidempergher.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/790",
+
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Lorenzo Gonzo",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/lorenzo_gonzo.jpg",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "3.305,55 &euro;"
+              },
+              "permalink": "https://trasparenza.fbk.eu/content/view/full/789"
+            }
+          }, {
+            "name": "Anna Perini",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/anna_perini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/24645",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": " 3.694,44 &euro;"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Comitato Scientifico",
+        "elements": [{
+            "name": "Maurizio Sobrero",
+            "role": "presidente Comitato Scientifico",
+            "gender": "male",
+            "image": "images/pictures/maurizio_sobrero.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Comitato-Scientifico/Maurizio-Sobrero",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "25.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Carla Fabiana Chiasserini",
+            "role": "componente area ICT",
+            "gender": "female",
+            "image": "images/pictures/fabiana_chiasserini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3517",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Marco Gori",
+            "role": "Referente Area ICT",
+            "gender": "male",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3515",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro;3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Francesca Rossi",
+            "role": "Componente Area ICT",
+            "gender": "female",
+            "image": "images/pictures/francesca_rossi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3523",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Pasqualina Sarro",
+            "role": "Componente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/pasqualina_sarro.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3524",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Andrea Vacchi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "male",
+            "image": "images/pictures/andrea_vacchi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3516",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro;3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Roberta Ramponi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/roberta_ramponi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3522",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Marco Ajmone Marsan",
+            "role": "Componente Area CREATE-NET",
+            "gender": "male",
+            "image": "images/pictures/marco_ajmone_marsan.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13666",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Luigi Gambardella",
+            "role": "Componente Area CREATE-NET",
+            "gender": "male",
+            "image": "images/pictures/luigi_gambardella.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13668",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Guido Pellegrini",
+            "role": "Componente Area Scienze Umane e Sociali",
+            "gender": "male",
+            "image": "images/pictures/guido_pellegrini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3521",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Sebastiano Maffettone",
+            "role": "Componente Area Scienze Umane e Sociali",
+            "gender": "male",
+            "image": "images/pictures/sebastiano_maffettone.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3520",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio Sindacale",
+        "elements": [{
+            "name": "Marcello Condini",
+            "role": "presidente Collegio Sindacale",
+            "gender": "male",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3494",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "7.200 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Laura Pedron",
+            "role": "Membro effettivo del Collegio sindacale",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Collegio-Sindacale/Archivio-Collegio-Sindacale/Laura-Pedron",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "7.200 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Della Pietra Franca",
+            "role": "Collegio Sindacale",
+            "gender": "female",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3525",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "6.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Lucia Zandonella Maiucco",
+            "role": "Membro Collegio Sindacale",
+            "gender": "female",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3495",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": " 6.000 &euro;"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio dei Fondatori e dei Sostenitori",
+        "elements": [{
+            "name": "Provincia Autonoma di Trento",
+            "role": "fondatore",
+            "gender": "",
+            "permalink": "http://www.provincia.tn.it/",
+            "image": "images/logo/logo_pat.jpg",
+            "details": {}
+          },
+          {
+            "name": "Comune di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.trento.it/",
+            "image": "images/logo/trento_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Comune di Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.rovereto.tn.it/",
+            "image": "images/logo/rovereto_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Camera di Commercio, Industria, Artigianato e Agricoltura della Provincia di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.tn.camcom.it/",
+            "image": "images/logo/cciaa_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Confindustria Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.confindustria.tn.it",
+            "image": "images/logo/confindustria_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Fondazione Cassa di Risparmio di Trento e Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.fondazionecaritro.it/",
+            "image": "images/logo/caritro_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Federazione Trentina della Cooperazione",
+            "role": "",
+            "gender": "",
+            "permalink": "https://www.cooperazionetrentina.it/",
+            "image": "images/logo/cooperazionetrentina_logo.png",
+            "details": {}
+          }
+        ]
+      }
+    ],
+    "overview": [{
+        "name": "Consiglio di Amministrazione",
+        "parent": null
+      },
+      {
+        "name": "Organismo di Vigilanza",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "avv. Marco Grotto",
+        "role": "presidente organismo di Vigilanza",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "ing Sergio Orsinger",
+        "role": "componente esterno",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "avv. Sara Giovannini",
+        "role": "componente interno",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "Resp. Prevenzione Corruzione e Trasparenza",
+        "role": "Alessandro Dalla Torre",
+        "image": "images/dallatorre.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "110.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3168"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Francesco Profumo",
+        "role": "Presidente",
+        "image": "images/pictures/francesco_profumo.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "70.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Comitato Scientifico",
+        "parent": "Consiglio di Amministrazione",
+        "related": ["Francesco Profumo"]
+      },
+      {
+        "name": "Collegio sindacale",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Andrea Simoni",
+        "role": "Segreteria Generale",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "149.999,85 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-amministrativi-di-vertice/Simoni-Andrea"
+        },
+        "image": "images/pictures/andrea_simoni.jpg",
+        "parent": "Francesco Profumo"
+      },
+      {
+        "name": "Unità di Supporto",
+        "parent": "Andrea Simoni",
+        "related": ["Francesco Profumo"]
+      },
+      {
+        "name": "Bruno Caprile",
+        "role": "Valutazione della Ricerca",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Caprile-Bruno"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Sara Giovannini",
+        "role": "Ufficio Legale",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3505"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Mario Russo",
+        "role": "Sicurezza e Prevenzione",
+        "image": "images/pictures/mario_russo.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "42.318,96 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/23784"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Silvia Malesardi",
+        "role": "Digital Communication e Grandi Eventi",
+        "image": "images/pictures/silvia_malesardi.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Malesardi-Silvia"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Polo Scientifico e Tecnologico",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Paolo Traverso",
+        "role": "ICT",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "119.999,87 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Traverso-Paolo"
+        },
+        "image": "images/pictures/paolo_traverso.jpg",
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Gianluigi Casse",
+        "role": "CMM",
+        "image": "images/pictures/gianluigi_casse.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "135,217,94 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Casse-Gianluigi"
+        },
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Elio Salvadori",
+        "role": "CREATE-NET",
+        "image": "images/pictures/elio_salvadori.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "89.999,97 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/13656"
+        },
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Wambach Jochen",
+        "role": "ECT* | ECT*/Lisc",
+        "image": "images/pictures/wambach_jochen.jpg",
+        "permalink": "https://trasparenza.fbk.eu/content/view/full/3528",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "78.666,67 &euro;"
+          }
+        },
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Polo delle Scienze Umane e Sociali",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Christoph Cornelissen",
+        "role": "ISIG",
+        "permalink": "https://trasparenza.fbk.eu/content/view/full/16749",
+        "image": "images/pictures/christoph_cornelissen.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "45.000 &euro;"
+          }
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Marco Ventura",
+        "role": "ISR",
+        "permalink": "https://trasparenza.fbk.eu/content/view/full/3526",
+        "image": "images/pictures/marco_ventura.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "45.000 &euro;"
+          }
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Antonio Schizzerotto",
+        "role": "IRVAPP",
+        "image": "images/pictures/antonio_schizzerotto.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "68.999,87 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Schizzerotto-Antonio"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Comparto Amministrazione Servizi di Supporto alla Ricerca",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Umberto Silvestri",
+        "role": "Amministrazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "109.999,94 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Silvestri-Umberto"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Mauro Marcantoni",
+        "role": "Nucleo di valutazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "incarico svolto",
+            "value": "a titolo gratuito"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Performance/sistema-performance-FBK"
+        },
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Paola Angeli",
+        "role": "Appalti e Contratti",
+        "image": "images/pictures/paola_angeli.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "50.392,33 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Angeli-Paola"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Alessandro Dalla Torre",
+        "role": "Risorse Umane",
+        "image": "images/pictures/alessandro_dallatorre.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "100.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3168"
+        },
+
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Alessandro Bozzoli",
+        "role": "Area Innovazione e Rapporti con il territorio",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Bozzoli-Alessandro"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Marco De Rosa",
+        "role": "IT, Infrastrutture e Patrimonio",
+        "image": "images/pictures/marco_derosa.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "75.362,03 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/De-Rosa-Marco"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Chiara Zanoni",
+        "role": "Supporto al polo delle Scienze Umane e Sociali",
+        "image": "images/pictures/chiara_zanoni.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Zanoni-Zorzi-Chiara"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      }
+    ]
+  },
+  "2018": {
+    "sections": [{
+        "title": "Consiglio di Amministrazione",
+        "elements": [{
+            "name": "Francesco Profumo",
+            "role": "Presidente - fino al 19/12/2018",
+            "gender": "male",
+            "image": "images/pictures/francesco_profumo.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "70.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Ilaria Vescovi",
+            "role": "Vicepresidente",
+            "gender": "female",
+            "image": "images/pictures/ilaria_vescovi.gif",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/782",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "21/09/2019"
+              }
+            }
+          },
+          {
+            "name": "Alberto Carli",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/albertocarli.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/783",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "01/02/2019"
+              }
+            }
+          },
+          {
+            "name": "Vanessa Cattoi",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/vanessa_cattoi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/785",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "14/03/2018"
+              }
+            }
+          },
+          {
+            "name": "Paolo Collini",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/paolo_collini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/786",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "20/3/2018"
+              }
+            }
+          },
+          {
+            "name": "Flavio Deflorian",
+            "role": "Consigliere",
+            "gender": "male",
+            "image": "images/pictures/flavio_deflorian.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/30101",
+            "details": {
+              "salary": {
+                "label": "dal",
+                "value": "21/03/2018"
+              }
+            }
+          },
+          {
+            "name": "Roberto Della Marina",
+            "role": "Consigliere",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/787",
+            "image": "images/pictures/roberto_dellamarina.jpg",
+            "gender": "male",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "16/10/2018"
+              }
+            }
+          },
+          {
+            "name": "Speranza Falciano",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/speranza_falciano.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13473",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "20/03/2018"
+              }
+            }
+          },
+          {
+            "name": "Simona Heidempergher",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/simona_heidempergher.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/790",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "28/02/2021"
+              }
+            }
+          },
+          {
+            "name": "Anna Perini",
+            "role": "Consigliere",
+            "gender": "female",
+            "image": "images/pictures/anna_perini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/24645",
+            "details": {
+              "salary": {
+                "label": "fino al",
+                "value": "20/06/2021"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Comitato Scientifico",
+        "elements": [{
+            "name": "Maurizio Sobrero",
+            "role": "presidente Comitato Scientifico",
+            "gender": "male",
+            "image": "images/pictures/maurizio_sobrero.jpg",
+            "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Comitato-Scientifico/Maurizio-Sobrero",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "25.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Marco Ajmone Marsan",
+            "role": "Componente Area CREATE-NET",
+            "gender": "male",
+            "image": "images/pictures/marco_ajmone_marsan.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13666",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Carla Fabiana Chiasserini",
+            "role": "componente area ICT",
+            "gender": "female",
+            "image": "images/pictures/fabiana_chiasserini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3517",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Luigi Gambardella",
+            "role": "Componente Area CREATE-NET",
+            "gender": "male",
+            "image": "images/pictures/luigi_gambardella.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/13668",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Marco Gori",
+            "role": "Referente Area ICT",
+            "gender": "male",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3515",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro;3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Guido Pellegrini",
+            "role": "Componente Area Scienze Umane e Sociali",
+            "gender": "male",
+            "image": "images/pictures/guido_pellegrini.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3521",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Roberta Ramponi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/roberta_ramponi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3522",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Francesca Rossi",
+            "role": "Componente Area ICT",
+            "gender": "female",
+            "image": "images/pictures/francesca_rossi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3523",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Pasqualina Sarro",
+            "role": "Componente Area Materiali e Microsistemi",
+            "gender": "female",
+            "image": "images/pictures/pasqualina_sarro.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3524",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          },
+          {
+            "name": "Andrea Vacchi",
+            "role": "Referente Area Materiali e Microsistemi",
+            "gender": "male",
+            "image": "images/pictures/andrea_vacchi.jpg",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3516",
+            "details": {
+              "salary": {
+                "label": "indennità",
+                "value": "&euro;3.000 compenso fisso annuo+gettone presenza 1.000&euro; (max 6.000 annui)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio Sindacale",
+        "elements": [{
+            "name": "Marcello Condini",
+            "role": "presidente Collegio Sindacale",
+            "gender": "male",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3494",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "7.200 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Della Pietra Franca",
+            "role": "Collegio Sindacale",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3525",
+            "details": {
+              "salary": {
+                "label": "Compenso annuale",
+                "value": "6.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Lucia Zandonella Maiucco",
+            "role": "Membro Collegio Sindacale",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/3495",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": " 6.000 &euro;"
+              }
+            }
+          },
+          {
+            "name": "Anna Postal",
+            "role": "Membro supplente del Collegio Sindacale",
+            "gender": "female",
+            "image": "images/pictures/default.png",
+            "permalink": "https://trasparenza.fbk.eu/content/view/full/27268",
+            "details": {
+              "salary": {
+                "label": "indennità di carica",
+                "value": "0 &euro;"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "Collegio dei Fondatori e dei Sostenitori",
+        "elements": [{
+            "name": "Provincia Autonoma di Trento",
+            "role": "fondatore",
+            "gender": "",
+            "permalink": "http://www.provincia.tn.it/",
+            "image": "images/logo/logo_pat.jpg",
+            "details": {}
+          },
+          {
+            "name": "Comune di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.trento.it/",
+            "image": "images/logo/trento_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Comune di Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.comune.rovereto.tn.it/",
+            "image": "images/logo/rovereto_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Camera di Commercio, Industria, Artigianato e Agricoltura della Provincia di Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.tn.camcom.it/",
+            "image": "images/logo/cciaa_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Confindustria Trento",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.confindustria.tn.it",
+            "image": "images/logo/confindustria_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Fondazione Cassa di Risparmio di Trento e Rovereto",
+            "role": "",
+            "gender": "",
+            "permalink": "http://www.fondazionecaritro.it/",
+            "image": "images/logo/caritro_logo.png",
+            "details": {}
+          },
+          {
+            "name": "Federazione Trentina della Cooperazione",
+            "role": "",
+            "gender": "",
+            "permalink": "https://www.cooperazionetrentina.it/",
+            "image": "images/logo/cooperazionetrentina_logo.png",
+            "details": {}
+          }
+        ]
+      }
+    ],
+    "overview": [{
+        "name": "Consiglio di Amministrazione",
+        "parent": null
+      },
+      {
+        "name": "Organismo di Vigilanza",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "avv. Marco Grotto",
+        "role": "presidente organismo di Vigilanza",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "ing Sergio Orsinger",
+        "role": "componente esterno",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "avv. Sara Giovannini",
+        "image": "images/pictures/default.png",
+        "role": "componente interno",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "10.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/OIV/OdV"
+        },
+        "parent": "Organismo di Vigilanza"
+      },
+      {
+        "name": "Michele Kirckner",
+        "role": "Resp. Sicurezza e Prevenzione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://sicurezza.fbk.eu/people/profile/kirchner"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Resp. Prevenzione Corruzione e Trasparenza",
+        "role": "Alessandro Dalla Torre",
+        "image": "images/pictures/alessandro_dallatorre.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "110.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3168"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Francesco Profumo",
+        "role": "Presidente",
+        "image": "images/pictures/francesco_profumo.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "70.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione/Francesco-Profumo"
+        },
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Andrea Simoni",
+        "role": "Segreteria Generale",
+        "image": "images/pictures/andrea_simoni.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "149.999,85 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-amministrativi-di-vertice/Simoni-Andrea"
+        },
+        "parent": "Francesco Profumo"
+      },
+      {
+        "name": "Comitato Scientifico",
+        "parent": "Consiglio di Amministrazione",
+        "related": ["Francesco Profumo"]
+      },
+      {
+        "name": "Collegio sindacale",
+        "parent": "Consiglio di Amministrazione"
+      },
+      {
+        "name": "Unità di Supporto",
+        "parent": "Andrea Simoni",
+        "related": ["Francesco Profumo"]
+      },
+      {
+        "name": "Bruno Caprile",
+        "role": "Valutazione della Ricerca",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Caprile-Bruno"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Sara Giovannini",
+        "role": "Ufficio Legale",
+        "image": "images/pictures/default.png",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3505"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Mario Russo",
+        "role": "Sicurezza e Prevenzione",
+        "image": "images/pictures/mario_russo.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "42.318,96 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/23784"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Silvia Malesardi",
+        "role": "Digital Communication e Grandi Eventi",
+        "image": "images/pictures/silvia_malesardi.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Malesardi-Silvia"
+        },
+        "parent": "Unità di Supporto"
+      },
+      {
+        "name": "Polo Scientifico e Tecnologico",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Paolo Traverso",
+        "role": "ICT",
+        "image": "images/pictures/paolo_traverso.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "119.999,87 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Traverso-Paolo"
+        },
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Gianluigi Casse",
+        "role": "CMM",
+        "image": "images/pictures/gianluigi_casse.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "135,217,94 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Casse-Gianluigi"
+        },
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Elio Salvadori",
+        "role": "CREATE-NET",
+        "image": "images/pictures/elio_salvadori.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "89.999,97 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/13656"
+        },
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Wambach Jochen",
+        "role": "ECT* | ECT*/Lisc",
+        "image": "images/pictures/wambach_jochen.jpg",
+        "permalink": "https://trasparenza.fbk.eu/content/view/full/3528",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "78.666,67 &euro;"
+          }
+        },
+        "parent": "Polo Scientifico e Tecnologico"
+      },
+      {
+        "name": "Polo delle Scienze Umane e Sociali",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Christoph Cornelissen",
+        "role": "ISIG",
+        "permalink": "https://trasparenza.fbk.eu/content/view/full/16749",
+        "image": "images/pictures/christoph_cornelissen.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "45.000 &euro;"
+          }
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Marco Ventura",
+        "role": "ISR",
+        "permalink": "https://trasparenza.fbk.eu/content/view/full/3526",
+        "image": "images/pictures/marco_ventura.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "45.000 &euro;"
+          }
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Pierluigi Sacco",
+        "role": "IRVAPP",
+        "image": "images/pictures/pierluigi_sacco.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "45000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Sacco-Pier-Luigi"
+        },
+        "parent": "Polo delle Scienze Umane e Sociali"
+      },
+      {
+        "name": "Comparto Amministrazione Servizi di Supporto alla Ricerca",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Umberto Silvestri",
+        "role": "Amministrazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "109.999,94 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Silvestri-Umberto"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Progetti Speciali",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Responsabile",
+        "role": "Andrea Simoni",
+        "parent" : "Progetti Speciali",
+        "image": "images/pictures/andrea_simoni.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "149.999,85 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-amministrativi-di-vertice/Simoni-Andrea"
+        }
+      },
+      {
+        "name": "Nucleo di Valutazione",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Mauro Marcantoni",
+        "role": "Nucleo di Valutazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "incarico svolto",
+            "value": "a titolo gratuito"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Performance/sistema-performance-FBK"
+        },
+        "parent": "Nucleo di Valutazione"
+      },
+      {
+        "name": "Michela Ventin",
+        "role": "Nucleo di valutazione",
+        "image": "images/pictures/default.png",
+        "details": {
+          "salary": {
+            "label": "compenso annuale",
+            "value": "5.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Performance/sistema-performance-FBK"
+        },
+        "parent": "Nucleo di Valutazione"
+      },
+      {
+        "name": "Knowledge Transfer Area",
+        "parent": "Andrea Simoni"
+      },
+      {
+        "name": "Alessandro Bozzoli",
+        "role": "responsabile Knowledge Transfer Area",
+        "image": "images/pictures/alessandro_bozzoli.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Bozzoli-Alessandro"
+        },
+        "parent": "Knowledge Transfer Area"
+      },
+      {
+        "name": "Paola Angeli",
+        "role": "Appalti e Contratti",
+        "image": "images/pictures/paola_angeli.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "50.392,33 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/Angeli-Paola"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Alessandro Dalla Torre",
+        "role": "Risorse Umane",
+        "image": "images/pictures/alessandro_dallatorre.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "100.000 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/content/view/full/3168"
+        },
+
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Marco De Rosa",
+        "role": "IT, Infrastrutture e Patrimonio",
+        "image": "images/pictures/marco_derosa.jpg",
+        "details": {
+          "salary": {
+            "label": "Compenso annuale",
+            "value": "75.362,03 &euro;"
+          },
+          "permalink": "https://trasparenza.fbk.eu/Personale/Titolari-di-incarichi-dirigenziali-dirigenti-non-generali/De-Rosa-Marco"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      },
+      {
+        "name": "Chiara Zanoni",
+        "role": "Supporto al polo delle Scienze Umane e Sociali",
+        "image": "images/pictures/chiara_zanoni.jpg",
+        "details": {
+          "permalink": "https://trasparenza.fbk.eu/Personale/Posizioni-organizzative/Posizioni-organizzative-Comparto-Amministrazione-e-Servizi-di-Supporto-alla-Ricerca/Zanoni-Zorzi-Chiara"
+        },
+        "parent": "Comparto Amministrazione Servizi di Supporto alla Ricerca"
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+.contains-hirings-charts {
+  color: @fbk-vivid-blue;
+  margin-top: 1 * @main-line-height;
+  text-align: center;
+  
+  .column-width(@n-per-rows) {
+    width: (((100% - (4% * 11)) / 12) * (12 / @n-per-rows)) + (4% * ((12 / @n-per-rows) - 1));
+  }
+  
+  .column-first() {
+    clear: both;
+    margin-left: 0 !important;
+  }
+  
+  .column-reset() {
+    clear: none;
+    margin-left: 4% !important;
+  }
+  
+  .hirings-chart-column {
+    @media (min-width: 400px) {
+      .column-width(2);
+
+      &:nth-child(2n+1) {
+        .column-first();
+      }
+    }
+    
+    @media (min-width: 550px) {
+      .column-width(3);
+      
+      &:nth-child(2n+1) {
+        .column-reset();
+      }
+
+      &:nth-child(3n+1) {
+        .column-first();
+      }
+    }
+    
+    @media (min-width: 750px) {
+      .column-width(4);
+      
+      &:nth-child(2n+1), &:nth-child(3n+1) {
+        .column-reset();
+      }
+      
+      &:nth-child(4n+1) {
+        .column-first();
+      }
+    }
+    
+    @media (min-width: 1000px) {
+      .column-width(6);
+      
+      &:nth-child(2n+1), &:nth-child(3n+1), &:nth-child(4n+1) {
+        .column-reset();
+      }
+      
+      &:nth-child(6n+1) {
+        .column-first();
+      }
+    }
+    
+    svg {
+      min-height: 240px;
+      position: relative;
+      top: -0.5 * @main-line-height;
+      width: 100%;
+
+      &.contains-highlights {
+        g.male rect {
+          fill: greyscale(@fbk-vivid-blue);
+          opacity: .4;
+        }
+
+        g.female rect {
+          fill: greyscale(@fbk-pink);
+          opacity: .4;
+        }
+      }
+
+      g.male rect, g.female rect {
+        cursor: pointer;
+        transition: fill .33s ease;
+
+      }
+
+      g.male rect {
+        fill: @fbk-vivid-blue;
+
+        &.is-highlighted {
+          fill: @fbk-vivid-blue !important;
+            opacity: 1;
+        }
+      }
+
+      g.female rect {
+        fill: @fbk-pink;
+
+        &.is-highlighted {
+          fill: @fbk-pink !important;
+            opacity: 1;
+        }
+      }
+
+      .axis path {
+        display: none;
+      }
+
+      .axis--x {
+        line {
+          display: none;
+        }
+
+        text {
+          fill: @fbk-blue;
+          font-family: 'Roboto Condensed', sans-serif;
+          font-size: 1.2rem;
+        }
+      }
+
+      .axis--y {
+        line {
+          fill: @separator-color;
+          stroke: @separator-color;
+        }
+      }
+
+      .transition(background-image .5s ease-in-out);
+
+      background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 261 235.9" style="enable-background:new 0 0 261 235.9"><g transform="translate(0, -24)"><g transform="translate(0, 216)"><path fill="%23F7F7F7" d="M.5 24v.5h260V24"/><g transform="translate(12.5,0)"><path fill="none" stroke="%23F7F7F7" d="M0 24v0z"/></g><g transform="translate(242.5,0)"><path fill="none" stroke="%23F7F7F7" d="M0 24v0z"/></g></g><g transform="translate(0,216.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><g transform="translate(0,185.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><g transform="translate(0,154.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><g transform="translate(0,123.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><g transform="translate(0,93.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><g transform="translate(0,62.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><g transform="translate(0,31.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><g transform="translate(0,0.5)"><path fill="none" stroke="%23F7F7F7" d="M0 24H260z"/></g><path fill="%23F7F7F7" d="M231 154v6H208V55H185V197v12H162V184 147H139v-6H116V123H93v43 25H70v-7H47V117H24V98 36H1V98 240H24 47 70 93h23 23 23 23 23 23 23V166 154z"/></g></svg>');
+      background-repeat: no-repeat;
+
+      &.has-been-rendered {
+        background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 261 235.9" style="enable-background:new 0 0 261 235.9"></svg>');
+      }
+    }
+  }
+}
+
+#hirings-tooltip {
+  background: white;
+  border: 3px solid @fbk-blue;
+  padding: 16px;
+  pointer-events: none;
+  position: absolute;
+  max-width: 170px;
+  box-shadow: 6px 7px 0px @fbk-blue;
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+  }
+
+  p {
+    margin: 0;
+    line-height: 2.2rem;
+    font-weight: 600;
+  }
+
+  p:nth-child(3){
+    color: @fbk-pink;
+
+  }
+  strong {
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,314 @@
+@positive-value: rgba(129,232,63,.6);
+@tooltip-positive-value:rgba(98, 195, 36, 0.77);
+@tooltip-negative-value:rgba(237,0,58,.6);
+@negative-value: rgba(237,0,58,.6);
+
+.transform(@value) {
+  -webkit-transform: @value;
+  -moz-transform: @value;
+  -ms-transform: @value;
+  -o-transform: @value;
+  transform: @value;
+}
+
+.transform-origin(@value) {
+  -webkit-transform-origin: @value;
+  -moz-transform-origin: @value;
+  -ms-transform-origin: @value;
+  -o-transform-origin: @value;
+  transform-origin: @value;
+}
+
+#bilancio-charts {
+  .bilancio-chart-switcher {
+    padding: 32px 0;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    .previous, .next, .current-year {
+      display: inline-block;
+    }
+
+    .previous, .next {
+      cursor: pointer;
+      pointer-events: visible;
+      .transition(all .5s ease-in-out);
+
+      &.disabled {
+        cursor: not-allowed;
+        opacity: 0.2;
+      }
+    }
+
+    .previous {
+      background-image: url("../images/freccia.svg");
+      background-repeat: no-repeat;
+      transform: scaleX(-1);
+      width: 45px;
+      height: 45px;
+    }
+
+    .next {
+      background-image: url("../images/freccia.svg");
+      background-repeat: no-repeat;
+      transform: scaleX(1);
+      width: 45px;
+      height: 45px;
+    }
+
+    .current-year {
+      font-size: 48px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      line-height: 48px;
+      padding: 0 2rem;
+      text-align: center;
+      vertical-align: top;
+    }
+  }
+
+  #bilancio-chart {
+    min-height: 320px;
+    position: relative;
+
+    .total {
+      font-size: 4.6rem;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 300;
+      position: absolute;
+      text-align: center;
+      .transform(rotate(-90deg));
+      top: 50%;
+      width: 100%;
+      z-index: 20;
+
+      &.incoming {
+        padding-bottom: 42px;
+        left: -50%;
+      }
+
+      &.outgoing {
+        padding-top: 42px;
+        right: -50%;
+      }
+    }
+
+    svg {
+      opacity: 1.0;
+      position: relative;
+      z-index: 25;
+    }
+
+    g.links path {
+      cursor: pointer;
+      stroke: #000000;
+      stroke-opacity: 0.07;
+      .transition(fill .25s ease-in-out);
+      z-index: 50;
+    }
+    
+    g.nodes {
+      font-size: 10px;
+    }
+    
+    g.io {
+      cursor: pointer;
+      
+      rect {
+        fill: @fbk-blue;
+        .transition(all .25s ease-in-out);
+      }
+    }
+    
+    g.centre {
+      cursor: pointer;
+      
+      rect.base {
+        fill: #ffffff;
+      }
+      
+      rect.incoming, rect.outgoing {
+        fill: @fbk-blue;
+        .transition(all .25s ease-in-out);
+      }
+      
+      text {
+        .transition(all .25s ease-in-out);
+      }
+    }
+
+    text {
+      fill: @fbk-blue;
+      pointer-events: none;
+      text-transform: uppercase;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    &.contains-highlighted {
+      g.links path.is-highlighted {
+        stroke-opacity: 0.4;
+        z-index: 100;
+
+        &.incoming {
+          stroke: @tooltip-positive-value;
+        }
+
+        &.outgoing {
+          stroke: @tooltip-negative-value;
+        }
+      }
+      
+      g.io {
+        rect {
+          fill: #cccccc;
+        }
+        
+        &.is-highlighted {
+          rect {
+            fill: @fbk-blue !important;
+          }
+        }
+      }
+      
+      g.centre {
+        rect.incoming, rect.outgoing {
+          fill: #cccccc;
+        }
+      }
+    }
+    
+    &.is-highlighting-incomes, &.is-highlighting-centres, &.is-highlighting-expenses {
+      g.io text, g.centre text {
+        fill: #cccccc;
+      }
+      
+      g.io.is-highlighted text {
+        fill: @fbk-blue !important;
+      }
+    }
+    
+    &.is-highlighting-incomes {
+      g.centre.is-highlighted {
+        rect.incoming {
+          fill: @fbk-blue !important;
+        }
+        
+        text {
+          fill: @positive-value;
+        }
+      }
+    }
+    
+    &.is-highlighting-centres {
+      g.centre.is-highlighted {
+        rect.incoming, rect.outgoing, text {
+          fill: @fbk-blue !important;
+        }
+      }
+    }
+    
+    &.is-highlighting-expenses {
+      g.centre.is-highlighted {
+        rect.outgoing {
+          fill: @fbk-blue !important;
+        }
+        
+        text {
+          fill: @negative-value;
+        }
+      }
+    }
+  }
+}
+
+#balance-tooltip {
+  background: white;
+  border: 3px solid @fbk-blue;
+  padding: 0px;
+  pointer-events: none;
+  position: absolute;
+  box-shadow: 6px 7px 0px @fbk-blue;
+  font-size: 1.4rem;
+  font-weight: 400;
+  z-index: 250;
+
+  h3 {
+    padding: 16px;
+    font-size: 3.6rem;
+    font-weight: 300;
+    letter-spacing: 0.01rem;
+    margin: 0 0 0.5rem 0;
+    text-transform: uppercase;
+  }
+
+  .sum {
+    border-color: rgba(5, 89, 162, 0.17);
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin: 1rem 0 0.5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0rem;
+
+
+    &.incoming {
+      color:  @positive-value;
+
+    }
+
+    &.incoming::after {
+      content:"€";
+    }
+    &.incoming::before {
+      content:"+";
+    }
+
+    &.outgoing {
+      color: @tooltip-negative-value;
+
+    }
+    &.outgoing::after {
+      content:"€";
+    }
+    &.outgoing::before {
+      content:"-";
+    }
+  }
+
+  ul {
+    margin: 1.5rem 0 0 0;
+    padding: 0 16px 0 16px;
+
+    li {
+      margin: 0;
+      line-height: 1.5em;
+      list-style-type: none;
+
+      .contains-name {
+        text-transform: uppercase;
+      }
+
+      .contains-value {
+        float: right;
+        padding: 0 0 0 8px;
+      }
+
+      &.contains-income .contains-value {
+        color: @tooltip-positive-value;
+      }
+
+      &.contains-expense .contains-value {
+        color: @tooltip-negative-value;
+      }
+    }
+  }
+}
