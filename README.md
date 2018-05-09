@@ -1,12 +1,11 @@
 # FBK EXPLORER: SPECIFICHE DATI
 
 ## DIPENDENTI
----
 * Divisione per anno
 * Somme per tipologie/contratti sono da indicare in tutti i nodi/sottonodi
 * *default* contiene le proprietà che nella versione precedente erano singole proprietà (totale etamedia, ...) e non fa distinzioni di stranieri e categorie protette
 * l'ordine degli elementi nel JSON non ha impatto sul frontend/chart
-
+---
 ### Sotto-struttura #values
 
 ```
@@ -153,10 +152,9 @@
 }
 ```
 ## ASSUNZIONI
----
 * Lista degli anni non devono per forza corrispondere tra i vari centri
 * Sul frontend verrà utilizzato l'ordine delle liste e rispettivi elementi da JSON
-
+---
 ```
 [
   {
@@ -179,14 +177,13 @@
 ]
 ```
 ## ORGANIGRAMMA
----
 ### Divisione per anno
 
 - Ogni anno contiene sections (liste con nomi/link) e overview (tree chart)
 - Strutture per dettagli praticamente identitiche tra liste e chart
 - ```gender``` può essere: ```male``` , ```female``` o non specificato (anche ```null``` eventualmente)
 - Sul frontend verrà utilizzato l'ordine delle liste e rispettivi elementi da JSON
-
+---
 ```
 {
   "2015": {
@@ -240,10 +237,10 @@
 }
 ```
 ## BILANCIO
----
 *  Divisione per anno
 * Nomi dei ricavi e delle spesi tra gli elementi devono essere identici
 * Ordinamento degli elementi nel JSON non ha impatto sul frontend/chart
+---
 ```
 {
   "2015": { ... },
@@ -264,13 +261,12 @@
   "2017": { ... }
 }
 ```
-
 ## SEDI
----
 * Divisione per anno
 * Se ```image``` non viene specificato, viene utilizzata l'immagine di una sede generica
 * ```address``` può contenere numero variabile di voci/linee
 * Sul frontend verrà utilizzato l'ordine degli elementi nel JSON
+---
 ```
 {
   "2015": [
@@ -297,5 +293,5 @@
   ...
   ]
 }
-````
+```
 
