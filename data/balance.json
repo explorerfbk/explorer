@@ -47,8 +47,6 @@
 			"polo": "FBK",
 			"incoming": {
 				"progetti_europei": 189383.83,
-				"personale": 0.0,
-				"i/c_costi/(ricavi)": 0.0,
 				"accordo_di_programma": 5036535.55,
 				"altri_ricavi": 356403.52999999997,
 				"ricavi": 4000.0,
@@ -63,7 +61,6 @@
 			"polo": "FBK",
 			"incoming": {
 				"altre_agenzie_pubbliche": 3735.5,
-				"progetti_europei": 0.0,
 				"accordo_di_programma": 568465.78,
 				"altri_ricavi": 35503.0,
 				"commesse_con_privati": 13304.24,
