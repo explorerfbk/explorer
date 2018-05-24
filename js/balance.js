@@ -75,15 +75,15 @@
   function centreTooltip(selector, d) {
     tooltip(selector, Mustache.render($('#bilancio-tooltip-template').html(), {
       name: d.name,
-      incoming: $.map(d.sourceLinks.sort(function(a, b) { return b.value - a.value; }), function(link) {
+      incoming: $.map(d.targetLinks.sort(function(a, b) { return b.value - a.value; }), function(link) {
         return { name: link.name, value: numeral(link.value).format('0,0') };
       }),
-      outgoing: $.map(d.targetLinks.sort(function(a, b) { return b.value - a.value; }), function(link) {
+      outgoing: $.map(d.sourceLinks.sort(function(a, b) { return b.value - a.value; }), function(link) {
         return { name: link.name, value: numeral(link.value).format('0,0') };
       }),
       sums: {
-        incoming: numeral(d3.sum($.map(d.sourceLinks, function(link) { return link.value; }))).format('0,0'),
-        outgoing: numeral(d3.sum($.map(d.targetLinks, function(link) { return link.value; }))).format('0,0')
+        incoming: numeral(d3.sum($.map(d.targetLinks, function(link) { return link.value; }))).format('0,0'),
+        outgoing: numeral(d3.sum($.map(d.sourceLinks, function(link) { return link.value; }))).format('0,0')
       }
     }));
   }
