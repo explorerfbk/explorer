@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" class="no-js">
   <head>
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -28,8 +28,10 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png"> </head>
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
+    <script src="js/modernizr-custom.js" charset="utf-8"></script>
+  </head>
   <body>
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -71,339 +73,351 @@
         <div class="four columns"> &nbsp; </div>
       </div>
 
-      <div class="row" id="sunburst-title">
-        <div class="twelve column">
-          <h1>protagonisti nella ricerca<br/>in Italia e nel mondo</h1>
-      </div>
-      </div>
-      <div class="row" id="sunburst-text">
-        <div class="six columns">
+      <div class="requires-supported-browser">
+        <div class="row" id="sunburst-title">
+          <div class="twelve column">
+            <h1>protagonisti nella ricerca<br/>in Italia e nel mondo</h1>
+        </div>
+        </div>
+        <div class="row" id="sunburst-text">
+          <div class="six columns">
+            <p>
+      Siamo attivi in diversi campi della ricerca scientifica e sociale, nello sviluppo tecnologico e nell’ambito dell’alta formazione, interpretando un ruolo chiave in molteplici ambiti strategici, con un significativo impatto sul territorio.<br/>
+      Nel corso degli anni abbiamo attratto centinaia di nuove ricercatrici/ricercatori. Il nostro organico è progressivamente cresciuto parallelamente al nostro orizzonte di azione e alla nostra reputazione, estesa ed affermata grazie anche alle numerose collaborazioni con enti ed istituzioni nazionali ed internazionali.<br/>
+      Questi trend hanno interessato ogni dimensione della nostra istituzione: ricerca, innovazione, alta formazione, gestionale.
+    </p>
+          </div>
+          <div class="six columns">
           <p>
-		Siamo attivi in diversi campi della ricerca scientifica e sociale, nello sviluppo tecnologico e nell’ambito dell’alta formazione, interpretando un ruolo chiave in molteplici ambiti strategici, con un significativo impatto sul territorio.<br/>
-		Nel corso degli anni abbiamo attratto centinaia di nuove ricercatrici/ricercatori. Il nostro organico è progressivamente cresciuto parallelamente al nostro orizzonte di azione e alla nostra reputazione, estesa ed affermata grazie anche alle numerose collaborazioni con enti ed istituzioni nazionali ed internazionali.<br/>
-		Questi trend hanno interessato ogni dimensione della nostra istituzione: ricerca, innovazione, alta formazione, gestionale.
-	</p>
-        </div>
-        <div class="six columns">
-        <p>
- 	La seguente visualizzazione grafica, oltre a riflettere la nostra organizzazione, presenta alcuni dati e dimensioni rilevanti: numero delle lavoratrici e lavoratori, tipologie contrattuali, età e genere del personale, numero di studenti di dottorato presenti in Fondazione.<br/>
-	Le informazioni, organizzate per anno, sono consultabili liberamente. Esse sono inoltre disponibili, in formati diversi, sul sito dell’<a href="https://trasparenza.fbk.eu/">Amministrazione Trasparente</a>, dove è possibile consultare e conoscere nel dettaglio <a href="https://trasparenza.fbk.eu/Personale">personale</a>, <a href="https://trasparenza.fbk.eu/Consulenti-e-collaboratori/Titolari-di-incarichi-di-consulenza">consulenti</a> e <a href="https://trasparenza.fbk.eu/Consulenti-e-collaboratori/Titolari-di-incarichi-di-collaborazione">collaboratori</a> della Fondazione.
-	</p>
-        </div>
-      </div>
-      <script id="employees-tooltip-template" type="text/template">
-        <h3>{{title}}</h3>
-        {{#values}}
-          <p><strong>{{name}}:</strong>&nbsp;{{value}}</p>
-        {{/values}}
-      </script>
-      <div id="contains-employees">
-        <div class="contains-toggles">
-          <a href="#" data-action="toggle-fullscreen">Toggle Fullscreen</a>
-        </div>
-        <div id="contains-sunburst-chart">
-          <svg id="sunburst-chart"></svg>
-        </div>
-        <div id="contains-employees-overview">
-          <div id="sunburst-center-main">
-            <h1>
-              <div class="button-less">&nbsp;</div>
-              <span class="current-year" data-action="zoom-to-root">2016</span>
-              <div class="button-more">&nbsp;</div>
-            </h1>
-            <ul class="breadcrumbs"></ul>
-            <h2>000</h2>
-            <div id="employees-number">persone</div> <svg id="chart-jobs-general"></svg>
-            <p id="employees-description">&nbsp;</p>
-          </div>
-          <div class="row separator" id="sunburst-center-sub">
-            <div class="contains-jobs-act-chart">
-              <h1 data-inject="cocojobsact/count">46</h1> <svg></svg>
-              <p><span id="descoco" title="">Co.co.</span><br/><span id="descjobsact" title="">Jobs Act</span></p>
-
-                <p class="average-data"> <span class="both" data-inject="cocojobsact/age">0</span> | <span class="men" data-inject="cocojobsact/age/men">0</span> | <span class="women" data-inject="cocojobsact/age/women">0</span></p>
-                  <p class="average">Et&agrave; media          </p>
-            </div>
-            <div class="contains-indeterminato-chart">
-              <h1 data-inject="indeterminato/count">131</h1> <svg></svg>
-              <p id="descindeterminato" title="">Dipendenti<br/>Tempo indeterminato</p>
-
-                <p class="average-data"> <span class="both" data-inject="indeterminato/age">0</span> | <span class="men" data-inject="indeterminato/age/men">0</span> | <span class="women" data-inject="indeterminato/age/women">0</span></p>
-                  <p class="average">Et&agrave; media          </p>
-            </div>
-            <div class="contains-determinato-chart">
-              <h1 data-inject="determinato/count">146</h1> <svg></svg>
-              <p id="descdeterminato" title="Contratto di lavoro subordinato che prevede un termine finale e una durata prestabilita. Può essere stipulato tra un datore di lavoro e un lavoratore per lo svolgimento di qualunque tipo di mansione. E' instaurato ai sensi del D.Lgs n. 81/2015, del CCPL Fondazioni di cui alla L.P. 14/2005 e dell'accordo sindacale sui tempi determinati di data 30 luglio 2015 FBK-FEM.">Dipendenti<br/>Tempo determinato</p>
-
-                <p class="average-data"> <span class="both" data-inject="determinato/age">0</span> | <span class="men" data-inject="determinato/age/men">0</span> | <span class="women" data-inject="determinato/age/women">0</span></p>
-                  <p class="average">Et&agrave; media          </p>
-            </div>
-            <div class="contains-dottorandi-chart">
-              <h1 data-inject="phd/count">26</h1> <svg></svg>
-              <p id="descdottorandi" title="">Dottorandi</p>
-
-                <p class="average-data"> <span class="both" data-inject="phd/age">0</span> | <span class="men" data-inject="phd/age/men">0</span> | <span class="women" data-inject="phd/age/women">0</span></p>
-                  <p class="average">Et&agrave; media          </p>
-            </div>
-            <div class="contains-stranieri-chart">
-              <h1 data-inject="foreigners/count">0</h1>
-              <svg></svg>
-              <p id="descstranieri" title="">stranieri</p>
-              <p class="average-data"> <span class="both" data-inject="foreigners/age">0</span> | <span class="men" data-inject="foreigners/age/men">0</span> | <span class="women" data-inject="foreigners/age/women">0</span></p>
-              <p class="average">Et&agrave; media</p>
-            </div>
-            <div class="contains-categoria-protetta-chart">
-              <h1 data-inject="protected/count">0</h1>
-              <svg></svg>
-              <p id="desccategorieprotette" title="">categorie protette</p>
-              <p class="average-data"> <span class="both" data-inject="protected/age">0</span> | <span class="men" data-inject="protected/age/men">0</span> | <span class="women" data-inject="protected/age/women">0</span></p>
-              <p class="average">Et&agrave; media</p>
-            </div>
+    La seguente visualizzazione grafica, oltre a riflettere la nostra organizzazione, presenta alcuni dati e dimensioni rilevanti: numero delle lavoratrici e lavoratori, tipologie contrattuali, età e genere del personale, numero di studenti di dottorato presenti in Fondazione.<br/>
+    Le informazioni, organizzate per anno, sono consultabili liberamente. Esse sono inoltre disponibili, in formati diversi, sul sito dell’<a href="https://trasparenza.fbk.eu/">Amministrazione Trasparente</a>, dove è possibile consultare e conoscere nel dettaglio <a href="https://trasparenza.fbk.eu/Personale">personale</a>, <a href="https://trasparenza.fbk.eu/Consulenti-e-collaboratori/Titolari-di-incarichi-di-consulenza">consulenti</a> e <a href="https://trasparenza.fbk.eu/Consulenti-e-collaboratori/Titolari-di-incarichi-di-collaborazione">collaboratori</a> della Fondazione.
+    </p>
           </div>
         </div>
-        <a id="toggle-employees-help" class="toggles-help" href="#" data-context="#contains-employees"><img src="images/help.svg"/></a>
-      </div>
-      <div class="row" id="assunzioni">
-        <div class="twelve column">
-          <h1>FBK in cifre</h1> </div>
-      </div>
-      <div class="row" id="assunzioni-text">
-        <div class="six columns">
-          <p>Le nostre politiche hanno cercato di valorizzare le diversità, non solo di genere, e di rendere la Fondazione un luogo attento alle persone e davvero inclusivo.<br/>
-Negli ultimi anni, dall’analisi dei dati, emerge un trend positivo nelle assunzioni, con interessanti variazioni riferite a genere, generazioni, nazionalità.
-            </p>
-        </div>
-        <div class="six columns">
-          <p>
-Le dimensioni economiche relative alle attività istituzionali e su progetto consentono una lettura della situazione dinamica della Fondazione.
-          </p>
+        <script id="employees-tooltip-template" type="text/template">
+          <h3>{{title}}</h3>
+          {{#values}}
+            <p><strong>{{name}}:</strong>&nbsp;{{value}}</p>
+          {{/values}}
+        </script>
+        <div id="contains-employees">
+          <div class="contains-toggles">
+            <a href="#" data-action="toggle-fullscreen">Toggle Fullscreen</a>
           </div>
-      </div>
-      <script id="hirings-template" type="text/template">
-        <div class="row contains-hirings-charts">
-          {{#charts}}
-            <div class="column hirings-chart-column">
-              <h3><span>{{title}}</span></h3>
-              <svg id="{{cid}}" class="contains-hirings-chart"></svg>
-            </div>
-          {{/charts}}
-        </div>
-      </script>
-      <script id="hirings-tooltip-template" type="text/template">
-        <h3>{{year}}</h3>
-        {{#values}}
-          <p><strong>{{name}}:</strong>&nbsp;{{value}}</p>
-        {{/values}}
-      </script>
-      <div id="hirings-charts">
-        <!-- charts will be rendered here -->
-      </div>
-      <div class="row" id="organigramma">
-        <div class="twelve column">
-          <h1>organigramma</h1> </div>
-      </div>
-      <div class="row" id="organigramma-text">
-        <div class="six columns">
-          <p>
-		Nella trasparenza amministrativa si riflette il grado di accountability della Fondazione.<br/>
-		La seguente rappresentazione dell’organigramma intende agevolare la lettura e la comprensione della nostra organizzazione semplificandone la complessità insita nella sua natura.<br/>
-		In questa visualizzazione è possibile navigare con facilità il nostro organigramma e conoscere i nostri <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo">Organi di Governo</a> (ed i relativi compensi) come: <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Presidente">Presidente</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione">Consiglio di Amministrazione</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Collegio-Sindacale">Collegio Sindacale</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Comitato-Scientifico">Comitato Scientifico</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Collegio-dei-Fondatori-e-dei-Sostenitori">Collegio dei Fondatori e dei Sostenitori</a>.
-	</p>
-        </div>
-        <div class="six columns">
-          <p>La navigazione da poi la possibilità di conoscere come siamo strutturati, permettendo così di scoprire quali sono le <a href="https://trasparenza.fbk.eu/Organizzazione/Articolazione-degli-uffici">figure chiave</a> all'interno della ricerca e dell'amministrazione FBK, le loro relazioni al'interno della Fondazione e (dove previsto) anche i loro compensi.<br/>
-          Con la possibilità di mettervi in <a href="https://trasparenza.fbk.eu/Organizzazione/Telefono-e-posta-elettronica">contatto</a> con ciascuno di noi.
-        </div>
-      </div>
-      <div class="row">
-        <div class="twelve columns" id="contains-organigramma-chart">
-          <div class="contains-year-switcher">
-            <div class="previous">&nbsp;</div>
-            <div class="year">2016</div>
-            <div class="next">&nbsp;</div>
+          <div id="contains-sunburst-chart">
+            <svg id="sunburst-chart"></svg>
           </div>
-          <div class="contains-sections"></div>
-          <script id="organisation-tooltip-template" type="text/template">
-            <div class="tooltip">
-              {{#image}}
-                <div class="image" style="background-image: url('{{image}}');"></div>
-              {{/image}}
-              {{^image}}
-                <div class="image" style="background-image: url('/images/default_avatar.png');"></div>
-              {{/image}}
-              <div class="details">
-                <div class="name">{{name}}</div>
-                {{#role}}
-                  <div class="role">{{role}}</div>
-                {{/role}}
-                {{#details.salary}}
-                  <div class="salary">
-                    {{#details.salary.label}}
-                      {{{details.salary.label}}}: {{{details.salary.value}}}
-                    {{/details.salary.label}}
-                    {{^details.salary.label}}
-                      Earnings: {{{details.salary.value}}}
-                    {{/details.salary.label}}
-                  </div>
-                {{/details.salary}}
-              <div>
+          <div id="contains-employees-overview">
+            <div id="sunburst-center-main">
+              <h1>
+                <div class="button-less">&nbsp;</div>
+                <span class="current-year" data-action="zoom-to-root">2016</span>
+                <div class="button-more">&nbsp;</div>
+              </h1>
+              <ul class="breadcrumbs"></ul>
+              <h2>000</h2>
+              <div id="employees-number">persone</div> <svg id="chart-jobs-general"></svg>
+              <p id="employees-description">&nbsp;</p>
             </div>
-          </script>
-          <script id="organisation-section-template" type="text/template">
-            <div class="four columns">
-              <span class="count" data-value="{{elements.length}}">0</span>
-              <h2>{{title}}</h2>
-              <div class="gender-distribution">
-                <i class="female" style="width: {{female}}%;"></i>
-                <i class="male" style="width: {{male}}%;"></i>
-                <i class="undefined" style="width: {{undefined}}%;"></i>
+            <div class="row separator" id="sunburst-center-sub">
+              <div class="contains-jobs-act-chart">
+                <h1 data-inject="cocojobsact/count">46</h1> <svg></svg>
+                <p><span id="descoco" title="">Co.co.</span><br/><span id="descjobsact" title="">Jobs Act</span></p>
+
+                  <p class="average-data"> <span class="both" data-inject="cocojobsact/age">0</span> | <span class="men" data-inject="cocojobsact/age/men">0</span> | <span class="women" data-inject="cocojobsact/age/women">0</span></p>
+                    <p class="average">Et&agrave; media          </p>
               </div>
-              <ul>
-                {{#elements}}
-                  <li class="{{#isMale}}male{{/isMale}} {{#isFemale}}female{{/isFemale}} {{#isUndefined}}undefined{{/isUndefined}}">
-                    {{#permalink}}
-                      <a href="{{permalink}}" target="_blank">{{name}}</a>
-                    {{/permalink}}
-                    {{^permalink}}
-                      <a>{{name}}</a>
-                    {{/permalink}}
-                    {{#tooltip}}
-                      {{{tooltip}}}
-                    {{/tooltip}}
-                  </li>
-                {{/elements}}
-              </ul>
-            </div>
-          </script>
-        </div>
-      </div>
-      <div class="row" id="bilancio">
-        <div class="twelve column">
-          <h1>bilancio consuntivo</h1>
-        </div>
-      </div>
-      <div class="row" id="bilancio-text">
-        <div class="six columns">
-        <p>
-	Dei nostri bilanci proponiamo quello consuntivo, e cioè quello che illustra le entrate e le uscite reali della Fondazione.<br/>
-	Lo proponiamo evidenziando i flussi di budget interni ad ogni Centro, mostrando anche il peso e la natura delle entrate e le modalità del relativo impiego.
-        </p>
-        </div>
-        <div class="six columns">
-          <p>
-L’esposizione delle dimensioni economiche relative al bilancio consuntivo, in un formato agile e di immediata lettura, agevola una lettura più attenta e puntuale prevista invece nelle pagine dell’<a href="https://trasparenza.fbk.eu/Bilanci/Bilancio-preventivo-e-consuntivo/Bilancio-consuntivo">Amministrazione Trasparente</a>.
-          </p>
-          </div>
-      </div>
-      <script id="bilancio-tooltip-template" type="text/template">
-        <h3>{{name}}</h3>
-        {{#incoming.length}}
-          <ul>
-            {{#incoming}}
-              <li class="contains-income">
-                <span class="contains-name">{{name}}</span>&nbsp;<span class="contains-value">{{value}}</span>
-              </li>
-            {{/incoming}}
-          </ul>
-        {{/incoming.length}}
-        {{#sums.incoming}}
-          <div class="sum incoming">{{sums.incoming}}</div>
-        {{/sums.incoming}}
-        {{#outgoing.length}}
-          <ul>
-            {{#outgoing}}
-              <li class="contains-expense">
-                <span class="contains-name">{{name}}</span>&nbsp;<span class="contains-value">{{value}}</span>
-              </li>
-            {{/outgoing}}
-          </ul>
-        {{/outgoing.length}}
-        {{#sums.outgoing}}
-          <div class="sum outgoing">{{sums.outgoing}}</div>
-        {{/sums.outgoing}}
-      </script>
-      <div class="row" id="bilancio-charts">
-        <div class="twelve columns bilancio-chart-switcher">
-          <span class="previous"></span>
-          <span class="current-year">&nbsp;</span>
-          <span class="next"></span>
-        </div>
-        <div class="twelve columns">
-          <div id="bilancio-chart"></div>
-        </div>
-      </div>
-      <div class="row bilancio-overview-charts"></div>
+              <div class="contains-indeterminato-chart">
+                <h1 data-inject="indeterminato/count">131</h1> <svg></svg>
+                <p id="descindeterminato" title="">Dipendenti<br/>Tempo indeterminato</p>
 
-      <div class="row" id="sedi">
-        <div class="twelve column">
-          <h1>le nostre sedi</h1> </div>
-      </div>
-      <div class="row" id="sedi-intro">
-        <div class="six columns">
-          <p>
-		Le sedi che ospitano i nostri Centri di Ricerca si trovano a Trento.<br/>
-	Il Polo delle Scienze Umane e Sociali è ubicato in centro città tra la storica sede di via Santa Croce e vicolo Dalla Piccola, a due passi dalla centrale Piazza Fiera.
- 	  </p>
+                  <p class="average-data"> <span class="both" data-inject="indeterminato/age">0</span> | <span class="men" data-inject="indeterminato/age/men">0</span> | <span class="women" data-inject="indeterminato/age/women">0</span></p>
+                    <p class="average">Et&agrave; media          </p>
+              </div>
+              <div class="contains-determinato-chart">
+                <h1 data-inject="determinato/count">146</h1> <svg></svg>
+                <p id="descdeterminato" title="Contratto di lavoro subordinato che prevede un termine finale e una durata prestabilita. Può essere stipulato tra un datore di lavoro e un lavoratore per lo svolgimento di qualunque tipo di mansione. E' instaurato ai sensi del D.Lgs n. 81/2015, del CCPL Fondazioni di cui alla L.P. 14/2005 e dell'accordo sindacale sui tempi determinati di data 30 luglio 2015 FBK-FEM.">Dipendenti<br/>Tempo determinato</p>
+
+                  <p class="average-data"> <span class="both" data-inject="determinato/age">0</span> | <span class="men" data-inject="determinato/age/men">0</span> | <span class="women" data-inject="determinato/age/women">0</span></p>
+                    <p class="average">Et&agrave; media          </p>
+              </div>
+              <div class="contains-dottorandi-chart">
+                <h1 data-inject="phd/count">26</h1> <svg></svg>
+                <p id="descdottorandi" title="">Dottorandi</p>
+
+                  <p class="average-data"> <span class="both" data-inject="phd/age">0</span> | <span class="men" data-inject="phd/age/men">0</span> | <span class="women" data-inject="phd/age/women">0</span></p>
+                    <p class="average">Et&agrave; media          </p>
+              </div>
+              <div class="contains-stranieri-chart">
+                <h1 data-inject="foreigners/count">0</h1>
+                <svg></svg>
+                <p id="descstranieri" title="">stranieri</p>
+                <p class="average-data"> <span class="both" data-inject="foreigners/age">0</span> | <span class="men" data-inject="foreigners/age/men">0</span> | <span class="women" data-inject="foreigners/age/women">0</span></p>
+                <p class="average">Et&agrave; media</p>
+              </div>
+              <div class="contains-categoria-protetta-chart">
+                <h1 data-inject="protected/count">0</h1>
+                <svg></svg>
+                <p id="desccategorieprotette" title="">categorie protette</p>
+                <p class="average-data"> <span class="both" data-inject="protected/age">0</span> | <span class="men" data-inject="protected/age/men">0</span> | <span class="women" data-inject="protected/age/women">0</span></p>
+                <p class="average">Et&agrave; media</p>
+              </div>
+            </div>
+          </div>
+          <a id="toggle-employees-help" class="toggles-help" href="#" data-context="#contains-employees"><img src="images/help.svg"/></a>
         </div>
-        <div class="six columns">
-        <p>
-Nelle sedi di Povo, sulla collina di Trento, sorgono i Centri del Polo Scientifico e Tecnologico.<br/>
-È possibile consultare agevolmente i dati relativi al nostro <a href="https://trasparenza.fbk.eu/Beni-immobili-e-gestione-patrimonio">patrimonio immobiliare</a> ed ulteriori informazioni su come li mettiamo a disposizione di altri enti.
-	</p>
+        <div class="row" id="assunzioni">
+          <div class="twelve column">
+            <h1>FBK in cifre</h1> </div>
         </div>
-      </div>
-      <div class="row">
-        <div id="venues-year-switcher" class="twelve columns">
-          <span class="previous"></span>
-          <span class="current-year">&nbsp;</span>
-          <span class="next"></span>
+        <div class="row" id="assunzioni-text">
+          <div class="six columns">
+            <p>Le nostre politiche hanno cercato di valorizzare le diversità, non solo di genere, e di rendere la Fondazione un luogo attento alle persone e davvero inclusivo.<br/>
+  Negli ultimi anni, dall’analisi dei dati, emerge un trend positivo nelle assunzioni, con interessanti variazioni riferite a genere, generazioni, nazionalità.
+              </p>
+          </div>
+          <div class="six columns">
+            <p>
+  Le dimensioni economiche relative alle attività istituzionali e su progetto consentono una lettura della situazione dinamica della Fondazione.
+            </p>
+            </div>
         </div>
-      </div>
-      <div id="venues-container"></div>
-      <script id="venue-template" type="text/template">
-        <div class="row sede">
-          <div class="three columns">
-            <div class="contains-venue-image">
-                {{#clouds}}
-                  <div class="cloud {{offset}} {{size}} {{speed}} {{layer}}"></div>
-                {{/clouds}}
+        <script id="hirings-template" type="text/template">
+          <div class="row contains-hirings-charts">
+            {{#charts}}
+              <div class="column hirings-chart-column">
+                <h3><span>{{title}}</span></h3>
+                <svg id="{{cid}}" class="contains-hirings-chart"></svg>
+              </div>
+            {{/charts}}
+          </div>
+        </script>
+        <script id="hirings-tooltip-template" type="text/template">
+          <h3>{{year}}</h3>
+          {{#values}}
+            <p><strong>{{name}}:</strong>&nbsp;{{value}}</p>
+          {{/values}}
+        </script>
+        <div id="hirings-charts">
+          <!-- charts will be rendered here -->
+        </div>
+        <div class="row" id="organigramma">
+          <div class="twelve column">
+            <h1>organigramma</h1> </div>
+        </div>
+        <div class="row" id="organigramma-text">
+          <div class="six columns">
+            <p>
+      Nella trasparenza amministrativa si riflette il grado di accountability della Fondazione.<br/>
+      La seguente rappresentazione dell’organigramma intende agevolare la lettura e la comprensione della nostra organizzazione semplificandone la complessità insita nella sua natura.<br/>
+      In questa visualizzazione è possibile navigare con facilità il nostro organigramma e conoscere i nostri <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo">Organi di Governo</a> (ed i relativi compensi) come: <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Presidente">Presidente</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Consiglio-di-Amministrazione">Consiglio di Amministrazione</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Collegio-Sindacale">Collegio Sindacale</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Comitato-Scientifico">Comitato Scientifico</a>, <a href="https://trasparenza.fbk.eu/Organizzazione/Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo/Collegio-dei-Fondatori-e-dei-Sostenitori">Collegio dei Fondatori e dei Sostenitori</a>.
+    </p>
+          </div>
+          <div class="six columns">
+            <p>La navigazione da poi la possibilità di conoscere come siamo strutturati, permettendo così di scoprire quali sono le <a href="https://trasparenza.fbk.eu/Organizzazione/Articolazione-degli-uffici">figure chiave</a> all'interno della ricerca e dell'amministrazione FBK, le loro relazioni al'interno della Fondazione e (dove previsto) anche i loro compensi.<br/>
+            Con la possibilità di mettervi in <a href="https://trasparenza.fbk.eu/Organizzazione/Telefono-e-posta-elettronica">contatto</a> con ciascuno di noi.
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns" id="contains-organigramma-chart">
+            <div class="contains-year-switcher">
+              <div class="previous">&nbsp;</div>
+              <div class="year">2016</div>
+              <div class="next">&nbsp;</div>
+            </div>
+            <div class="contains-sections"></div>
+            <script id="organisation-tooltip-template" type="text/template">
+              <div class="tooltip">
                 {{#image}}
-                  <img src="{{image}}"/>
+                  <div class="image" style="background-image: url('{{image}}');"></div>
                 {{/image}}
                 {{^image}}
-                  <img src="./data/venues/sede-generica.svg"/>
+                  <div class="image" style="background-image: url('/images/default_avatar.png');"></div>
                 {{/image}}
-            </div>
-          </div>
-          <div class="three columns">
-            <p><b>{{title}}</b></p>
-            {{#address}}
-              <p>{{.}}</p>
-            {{/address}}
-          </div>
-          <div class="three columns">
-            <p><b>&nbsp;</b></p>
-              <p><i>proprietà</i></p>
-              <p>{{square_footage}}</p>
-          </div>
-          <div class="three columns">
-            <p><b>&nbsp;</b></p>
-            {{#location}}
-              <p><i>{{location}}</i></p>
-            {{/location}}
-            {{#rent}}
-              <p>versato &euro;<span data-number="{{rent}}">0</span></p>
-            {{/rent}}
-            {{#revenue}}
-              <p>percepito &euro;<span data-number="{{revenue}}">0</span></p>
-            {{/revenue}}
-            {{#plan}}
-              <p><a href="{{plan}}" target="_blank">info</a></p>
-            {{/plan}}
+                <div class="details">
+                  <div class="name">{{name}}</div>
+                  {{#role}}
+                    <div class="role">{{role}}</div>
+                  {{/role}}
+                  {{#details.salary}}
+                    <div class="salary">
+                      {{#details.salary.label}}
+                        {{{details.salary.label}}}: {{{details.salary.value}}}
+                      {{/details.salary.label}}
+                      {{^details.salary.label}}
+                        Earnings: {{{details.salary.value}}}
+                      {{/details.salary.label}}
+                    </div>
+                  {{/details.salary}}
+                <div>
+              </div>
+            </script>
+            <script id="organisation-section-template" type="text/template">
+              <div class="four columns">
+                <span class="count" data-value="{{elements.length}}">0</span>
+                <h2>{{title}}</h2>
+                <div class="gender-distribution">
+                  <i class="female" style="width: {{female}}%;"></i>
+                  <i class="male" style="width: {{male}}%;"></i>
+                  <i class="undefined" style="width: {{undefined}}%;"></i>
+                </div>
+                <ul>
+                  {{#elements}}
+                    <li class="{{#isMale}}male{{/isMale}} {{#isFemale}}female{{/isFemale}} {{#isUndefined}}undefined{{/isUndefined}}">
+                      {{#permalink}}
+                        <a href="{{permalink}}" target="_blank">{{name}}</a>
+                      {{/permalink}}
+                      {{^permalink}}
+                        <a>{{name}}</a>
+                      {{/permalink}}
+                      {{#tooltip}}
+                        {{{tooltip}}}
+                      {{/tooltip}}
+                    </li>
+                  {{/elements}}
+                </ul>
+              </div>
+            </script>
           </div>
         </div>
-      </script>
-      <!-- Container -->
+        <div class="row" id="bilancio">
+          <div class="twelve column">
+            <h1>bilancio consuntivo</h1>
+          </div>
+        </div>
+        <div class="row" id="bilancio-text">
+          <div class="six columns">
+          <p>
+    Dei nostri bilanci proponiamo quello consuntivo, e cioè quello che illustra le entrate e le uscite reali della Fondazione.<br/>
+    Lo proponiamo evidenziando i flussi di budget interni ad ogni Centro, mostrando anche il peso e la natura delle entrate e le modalità del relativo impiego.
+          </p>
+          </div>
+          <div class="six columns">
+            <p>
+  L’esposizione delle dimensioni economiche relative al bilancio consuntivo, in un formato agile e di immediata lettura, agevola una lettura più attenta e puntuale prevista invece nelle pagine dell’<a href="https://trasparenza.fbk.eu/Bilanci/Bilancio-preventivo-e-consuntivo/Bilancio-consuntivo">Amministrazione Trasparente</a>.
+            </p>
+            </div>
+        </div>
+        <script id="bilancio-tooltip-template" type="text/template">
+          <h3>{{name}}</h3>
+          {{#incoming.length}}
+            <ul>
+              {{#incoming}}
+                <li class="contains-income">
+                  <span class="contains-name">{{name}}</span>&nbsp;<span class="contains-value">{{value}}</span>
+                </li>
+              {{/incoming}}
+            </ul>
+          {{/incoming.length}}
+          {{#sums.incoming}}
+            <div class="sum incoming">{{sums.incoming}}</div>
+          {{/sums.incoming}}
+          {{#outgoing.length}}
+            <ul>
+              {{#outgoing}}
+                <li class="contains-expense">
+                  <span class="contains-name">{{name}}</span>&nbsp;<span class="contains-value">{{value}}</span>
+                </li>
+              {{/outgoing}}
+            </ul>
+          {{/outgoing.length}}
+          {{#sums.outgoing}}
+            <div class="sum outgoing">{{sums.outgoing}}</div>
+          {{/sums.outgoing}}
+        </script>
+        <div class="row" id="bilancio-charts">
+          <div class="twelve columns bilancio-chart-switcher">
+            <span class="previous"></span>
+            <span class="current-year">&nbsp;</span>
+            <span class="next"></span>
+          </div>
+          <div class="twelve columns">
+            <div id="bilancio-chart"></div>
+          </div>
+        </div>
+        <div class="row bilancio-overview-charts"></div>
+
+        <div class="row" id="sedi">
+          <div class="twelve column">
+            <h1>le nostre sedi</h1> </div>
+        </div>
+        <div class="row" id="sedi-intro">
+          <div class="six columns">
+            <p>
+      Le sedi che ospitano i nostri Centri di Ricerca si trovano a Trento.<br/>
+    Il Polo delle Scienze Umane e Sociali è ubicato in centro città tra la storica sede di via Santa Croce e vicolo Dalla Piccola, a due passi dalla centrale Piazza Fiera.
+      </p>
+          </div>
+          <div class="six columns">
+          <p>
+  Nelle sedi di Povo, sulla collina di Trento, sorgono i Centri del Polo Scientifico e Tecnologico.<br/>
+  È possibile consultare agevolmente i dati relativi al nostro <a href="https://trasparenza.fbk.eu/Beni-immobili-e-gestione-patrimonio">patrimonio immobiliare</a> ed ulteriori informazioni su come li mettiamo a disposizione di altri enti.
+    </p>
+          </div>
+        </div>
+        <div class="row">
+          <div id="venues-year-switcher" class="twelve columns">
+            <span class="previous"></span>
+            <span class="current-year">&nbsp;</span>
+            <span class="next"></span>
+          </div>
+        </div>
+        <div id="venues-container"></div>
+        <script id="venue-template" type="text/template">
+          <div class="row sede">
+            <div class="three columns">
+              <div class="contains-venue-image">
+                  {{#clouds}}
+                    <div class="cloud {{offset}} {{size}} {{speed}} {{layer}}"></div>
+                  {{/clouds}}
+                  {{#image}}
+                    <img src="{{image}}"/>
+                  {{/image}}
+                  {{^image}}
+                    <img src="./data/venues/sede-generica.svg"/>
+                  {{/image}}
+              </div>
+            </div>
+            <div class="three columns">
+              <p><b>{{title}}</b></p>
+              {{#address}}
+                <p>{{.}}</p>
+              {{/address}}
+            </div>
+            <div class="three columns">
+              <p><b>&nbsp;</b></p>
+                <p><i>proprietà</i></p>
+                <p>{{square_footage}}</p>
+            </div>
+            <div class="three columns">
+              <p><b>&nbsp;</b></p>
+              {{#location}}
+                <p><i>{{location}}</i></p>
+              {{/location}}
+              {{#rent}}
+                <p>versato &euro;<span data-number="{{rent}}">0</span></p>
+              {{/rent}}
+              {{#revenue}}
+                <p>percepito &euro;<span data-number="{{revenue}}">0</span></p>
+              {{/revenue}}
+              {{#plan}}
+                <p><a href="{{plan}}" target="_blank">info</a></p>
+              {{/plan}}
+            </div>
+          </div>
+        </script>
+        <!-- Container -->
+      </div>
+
+      <div class="row separator unsupported-browser">
+        Il tuo dispositivo/browser non &eacute; in grado di visualizzare i contenuti interattivi. Stiamo lavorando per permettere la consultazione di questi contenuti da tutti i dispositivi.
+      </div>
+
+      <noscript>
+        <div class="row separator">
+          Per visualizzare i contenuti interattivi &eacute; necessario abilitare il supporto Javascript del browser.
+        </div>
+      </noscript>
 
       <!-- Help / Intro -->
       <a id="toggle-help" class="toggles-help" href="#" data-context="body"><img src="images/help.svg"/></a>

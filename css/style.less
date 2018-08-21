@@ -260,15 +260,44 @@ footer{
 		color: white;
 		border-bottom: 1px solid rgba(255,255,255,.3);
 	}
-
-
 }
-#organigramma, #assunzioni, #bilanciom,#conclusione,#sunburst-title,#sedi,#grazie{
+
+#organigramma, #assunzioni, #bilanciom,#conclusione,#sunburst-title,#sedi,#grazie {
 	margin-top: 13rem;
 }
 
+#grazie {
+  text-align: center;
+}
 
-#grazie{text-align: center;}
+.unsupported-browser {
+  html.js & {
+    display: block;
+    padding-top: 33px;
+    text-align: center;
+  }
+
+  html.js.no-touchevents & {
+    @media only screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.requires-supported-browser {
+  left: -9999px;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+
+  html.js.no-touchevents & {
+    @media only screen and (min-width: 768px) {
+      max-height: inherit;
+      position: static;
+    }
+  }
+}
+
 @import "employees";
 @import "hirings";
 @import "organization";
