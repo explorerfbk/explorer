@@ -149,6 +149,10 @@
       });
       
       $.each(values.incoming, function(type, value) {
+        if (!value || value === 0.0) {
+          return;
+        }
+
         var context = md5('incoming/' + slugify(type));
         
         if (!(type in incomes)) {
@@ -178,6 +182,10 @@
       });
       
       $.each(values.expenses, function(type, value) {
+        if (!value || value === 0.0) {
+          return;
+        }
+
         var context = md5('outgoing/' + slugify(type));
         
         if (!(type in expenses)) {
@@ -547,9 +555,9 @@
         element: container,
         handler: function() {
           var years = $.map(data, function(_, index) { return index; });
-          
-          var currentYear = years[years.length - 1];
-          
+
+          var currentYear = years.slice().sort().pop();
+
           function updateButtons() {
             if (years.indexOf(currentYear) > 0) {
               $('.bilancio-chart-switcher .previous').removeClass('disabled');
